@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 100%;
+}
+
+/* worksection1 start =====================================================*/
+
+.worksection1 {
+  max-width: 80rem;
+  min-height: 73vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.worksection1 h1 {
+  font-weight: 800;
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.worksection1 p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.05rem;
+  line-height: 1.5rem;
+  padding: 0 10px;
+}
+
+.worksection1 div {
+  transform: translateY(60px);
+}
+.worksection1 div i {
+  color: black;
+}
+
+/* worksection1 end =====================================================*/
+
+/* WorkSection2 start =====================================================*/
+
+.WorkSection2 {
+  max-width: 100%;
+  min-height: 100vh;
+  /* background: url("https://www.cubix.co/storage/app/uploads/public/5e7/073/62b/5e707362b67a9439565688.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+.WorkSection2-Child {
+  width: 73rem;
+  min-height: 90vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WorkSection2-Child-div {
+  width: 73rem;
+  min-height: 90vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.WorkSection2-Child div {
+  width: 50%;
+}
+.WorkSection2-Child div h1 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: white;
+}
+.WorkSection2-Child div p {
+  /* font-weight: 800; */
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 3rem;
+  color: white;
+}
+.WorkSection2-Child div .Worksection2Button {
+  padding: 0.8rem 1.1rem;
+  border: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+}
+
+.WorkSection2-Child img {
+  width: 50%;
+  flex-shrink: 1;
+}
+
+/* for WorkSection2-Child-div */
+
+.WorkSection2-Child-div div {
+  width: 50%;
+}
+.WorkSection2-Child-div div h1 {
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: white;
+}
+.WorkSection2-Child-div div p {
+  /* font-weight: 800; */
+  font-size: 1.3rem;
+  color: white;
+  margin-bottom: 3rem;
+  color: white;
+}
+.WorkSection2-Child-div div .Worksection2Button {
+  padding: 0.8rem 1.1rem;
+  border: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: all 0.2s linear;
+}
+
+.Worksection2Button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.WorkSection2-Child-div img {
+  width: 50%;
+  flex-shrink: 1;
+}
+
+/* WorkSection2 end =====================================================*/
+
+/* WorkSection3 start =================================================== */
+
+.WorkSection3 {
+  max-width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WorkSection3 button {
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #5174fd;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
+
+/* WorkSection3 end   =================================================== */
+
+@media (max-width: 880px) {
+  :root {
+    font-size: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .WorkSection2 {
+    padding: 5rem 2.5rem;
+  }
+  .WorkSection2-Child {
+    flex-direction: column;
+  }
+  .WorkSection2-Child div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  .WorkSection2-Child img {
+    width: 100%;
+    flex-shrink: 1;
+  }
+
+  /* for WorkSection2-Child-div */
+  .WorkSection2-Child-div {
+    flex-direction: column-reverse;
+  }
+  .WorkSection2-Child-div div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .WorkSection2-Child-div img {
+    width: 100%;
+    flex-shrink: 1;
+    margin-bottom: 5rem;
+  }
+}
