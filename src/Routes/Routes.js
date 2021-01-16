@@ -17,6 +17,7 @@ import AboutClient from '../Pages/AboutClient';
 import Work from "../Pages/Work"
 import CaseStudy from "../Pages/CaseStudy"
 import ResourcesNewsUpdate from '../Pages/ResourcesNewsUpdate';
+import AboutProcess from '../Pages/AboutProcess';
 
 
 const Routes = () => {
@@ -45,8 +46,11 @@ const Routes = () => {
                     <Route exact path="/mobile-application">
                         <MobileApplication />
                     </Route>
-                    <Route exact path="/about-process">
+                    <Route exact path="/about">
                         <About />
+                    </Route>
+                    <Route exact path="/about-process">
+                        <AboutProcess />
                     </Route>
                     <Route exact path="/about-client">
                         <AboutClient />
