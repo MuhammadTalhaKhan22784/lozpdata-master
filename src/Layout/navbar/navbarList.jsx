@@ -7,7 +7,7 @@ import AboutModel from '../navbar/models/about'
 import ResourcesModel from '../navbar/models/resources'
 import { Link } from 'react-router-dom';
 import MyVerticallyCenteredModal from '../../Components/Modals/Modal';
-
+ 
 
 // import HoverModel from './service/aboutModel'
 const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hideAbout, color, setcolor }) => {
@@ -42,10 +42,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                             //   className='servicesss'
                             className={!vertical ? 'servicesss ' : 'servicesss2'}
                         ><Link
-
+                        className={!vertical ? `servicesss ${color ? "act" : ""}  ` : 'servicesss2'}
                             onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
 
-                            to="/services" className={!vertical ? `servicesss ${color ? "act" : ""}  ` : 'servicesss2'} >Services</Link>
+                            to="/services" >Services</Link>
 
                             <div className='model_div'>
                                 <ServiceModel value={value} />
@@ -74,8 +74,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                             value='3' className={!vertical ? `abouts ${color ? "act" : ""}` : `about2 `}
                             onMouseOver={showFunc}
                             onMouseLeave={hideFunc}
-                        >About
-                        <div className='model_div3'>
+                        ><Link
+                            onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                            to="/about" className={!vertical ? `abouts ${color ? "act" : ""}` : `about2 `} >About</Link>
+                            <div className='model_div3'>
                                 <AboutModel />
 
                             </div>
@@ -147,7 +149,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                                 {/* <p>Work</p> */}
                             </li>
                             <li className='about'>
-                                <p>About</p>
+                                <Link
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                    to="/about" className={!vertical ? `abouts ${color ? "act" : ""}` : `about2 `} >About</Link>
+
                                 <ExpandMoreIcon className='expand' onClick={() => handleAbout('about')} />
                             </li>
                             {open2 === true && value == 'about' ?

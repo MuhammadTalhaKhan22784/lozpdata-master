@@ -18,6 +18,8 @@ import Work from "../Pages/Work"
 import CaseStudy from "../Pages/CaseStudy"
 import ResourcesNewsUpdate from '../Pages/ResourcesNewsUpdate';
 import AboutProcess from '../Pages/AboutProcess';
+import BlogCard1 from '../PagesSubComponents/BlogCard1';
+import Blog from '../Pages/Blog';
 
 
 const Routes = () => {
@@ -63,6 +65,12 @@ const Routes = () => {
                     </Route>
                     <Route exact path="/news-updates">
                         <ResourcesNewsUpdate />
+                    </Route>
+                    <Route exact path="/blog-card-1">
+                        <BlogCard1/>
+                    </Route>
+                    <Route exact path="/blog">
+                        <Blog/>
                     </Route>
                 </Switch>
             </Router>

@@ -4,7 +4,7 @@ const WorkSectionData1 = (props) => {
     return (
         <>
             <div className="worksection1">
-                <h1>{props.bgText}</h1>
+                <h1 className="fs-1">{props.bgText}</h1>
                 <p>{props.bgPara1}</p>
                 <p>{props.bgPara2}</p>
                 <div>

@@ -24,7 +24,10 @@ const ResourcesModel = ({ open2 }) => {
                     <div className={!open2 ? 'service_link_div' : '.service_link_div2'}>
                         <ul className='service_ul'>
                             <li>
-                                <Link to="/" className='link'>
+                                <Link to="/blog" className='link' 
+                                onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+
+                                >
                                     Blog
                                 </Link>
                                 <p>

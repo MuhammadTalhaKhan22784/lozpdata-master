@@ -5,8 +5,8 @@ const AboutSection5 = () => {
         <>
             <div className="abt-sec-5">
                 <div className="abt-sec-5-text">
-                    <h1>Our creative heads build beautiful digital products.</h1>
-                    <p>Software and mobile app development for businesses from across the globe.</p>
+                    <h1 className="display-6">Our creative heads build beautiful digital products.</h1>
+                    <p className="fs-5">Software and mobile app development for businesses from across the globe.</p>
                 </div>
                 <div className="abt-sec-5-main">
                     <div className="container">
@@ -24,14 +24,14 @@ const AboutSection5 = () => {
                         </div>
 
                         <div className="row abt-cont-2">
-                            <div className="col-12 col-sm-10 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-12 col-md-4 col-lg-4">
                                 <div className="abt-sec-5-content-1">
                                     <p className="fs-5 let-spacing">
                                         We are proud to have the best team of creative thinkers and fantastic clients from across the world, trusting our developing, designing, and branding.
                                     </p>
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-10 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div className="abt-sec-5-content-1">
                                     <p className="fs-5 lh-base">
                                         <strong className="fw-bolder fs-3">Our approach</strong>
@@ -41,7 +41,7 @@ const AboutSection5 = () => {
                                 </div>
                             </div>
 
-                            <div className="col-12 col-sm-10 col-md-4 col-lg-4">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-4">
                                 <div className="abt-sec-5-content-1">
                                     <p className="fs-5 lh-base">
                                         <strong className="fw-bolder fs-3">Our mission</strong>

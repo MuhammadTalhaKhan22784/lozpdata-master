@@ -1997,7 +1997,7 @@
     color: white;
     /* border: 2px solid red; */
     line-height: 26px;
-}
+} 
 }
 
 @media (max-width:320px){
@@ -2011,3 +2011,9 @@
     line-height: 26px;
 }
 }
+
+
+/* 
+a:hover{
+  color: white;
+} */

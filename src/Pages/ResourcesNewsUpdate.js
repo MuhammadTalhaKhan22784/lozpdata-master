@@ -17,7 +17,7 @@ const ResourcesNewsUpdate = () => {
                 bgPara2="awards, recognition, and more. Watch this space for trending news about Cubix!"
             />
             
-            <ResourcesNewsUpdateSec2/>
+            <ResourcesNewsUpdateSec2 isShow="false"/>
             <ResourcesNewsUpdateSec3/>
             <ProductExperienceSection/> 
             <Footer/>

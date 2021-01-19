@@ -20,7 +20,7 @@
     height: 70px;
 }
 
-.enlivenem{
+.abt-sec-3-2 .enlivenem{
     width: 140px;
 }
 
@@ -198,10 +198,13 @@
 .abt-sec-5-text h1{
     text-align: center;
     margin: 0 auto;
+    text-transform: initial;
+    font-weight: bold;
 }
 
 .abt-sec-5-text p{
     text-align: center;
+    text-transform: initial;
     margin: 0 auto;
 }
 
@@ -252,7 +255,14 @@
 
 /* About Section 8 */
 
+.abt-sec-8{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f5f7fb;
+}
+
 .abt-sec-8-text{
+    line-height: 1.6;
 }
 
 .abt-sec-8-text h1{
@@ -268,9 +278,15 @@
 }
 
 .abt-sec-8-tabs{
+    display: flex;
+  flex-direction: column;
     margin-top: 5rem;
     /* display: flex;
     justify-content: center; */
+}
+
+.abt-tab-content{
+    display: flex;
 }
 
 .abt-nav{
@@ -279,29 +295,54 @@
 }
 
 /*  */
+
 .leaders-tab-pane{
     display: flex !important;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 3rem;
+    width: 100%;
 }
+/* .advisor-tab-pane{
+    display: flex !important;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 100%;
+} */
+
+.advisors-tab-pane{
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+}
+  .abt-wrapper-1{
+      width: 100%;
+      margin: 0 auto;
+  }
+
   
-  .abt-wrapper {
-    display: flex;
+  .abt-wrapper-2 {
+    /* width: 100%; */
     width: 90%;
-    justify-content: space-around;
+    margin: 0 auto;
   }
   
+  .abt-tab-card img{
+      margin: 0 auto;
+  }
+
   .abt-tab-card {
-    width: 280px;
-    height: 360px;
-    border-radius: 15px;
-    
+    width: 15rem;
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 15rem;
+    /* border-radius: 15px; */
     background: white;
     position: relative;
     display: flex;
-    align-items: flex-end;
-    transition: 0.4s ease-out;
-    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5); */
   }
   /* .abt-tab-card:hover {
     transform: translateY(60px);
@@ -311,7 +352,7 @@
   }
   .abt-tab-card:hover .info {
     opacity: 1;
-    transform: translateY(50%);
+    /* transform: translateY(50%); */
   }
   .abt-tab-card:before {
     content: "";
@@ -321,7 +362,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background: rgba(0, 0, 0, 0.6);
     z-index: 2;
     transition: 0.5s;
@@ -335,22 +376,145 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   .abt-tab-card .info {
     position: relative;
     z-index: 3;
     color: white;
     opacity: 0;
-    transform: translateY(30px);
+    /* transform: translateY(30px); */
     transition: 0.5s;
   }
   .abt-tab-card .info h1 {
-    margin: 0px;
+    text-align: center;
+    margin: 0 auto;
   }
   .abt-tab-card .info p {
     letter-spacing: 1px;
-    font-size: 15px;
+    /* ffont-size: 15px; */
     margin-top: 8px;
   }
  
+
+  /* About Section 9 */
+
+  .abt-sec-9{
+      padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .abt-sec-9-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .abt-sec-9-main h1{
+      width: 80%;
+      margin: 0 auto;
+      font-weight: bold;
+      text-transform: initial;
+      text-align: center;
+  }
+
+  .abt-sec-9-main p{
+    width: 60%;
+    margin: 0 auto;
+    text-transform: initial;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+.abt-sec-9-imgs{
+    width: 80%;
+    margin: 0 auto;}
+
+  .abt-sec-9-imgs img{
+      width: 200px;
+      background-position: center;
+      background-size: contain;
+      object-fit: contain;
+  }
+
+  /* About Section 10 */
+ 
+  .abt-sec-10{
+      width: 100%;
+      background-color: #f5f7fb;
+      height: max-content;
+      padding-top: 4rem;
+      padding-bottom: 8rem;
+  }
+ 
+  .vd-card {
+  }
+  
+  .abt-9-video-card{
+      margin-top: 3rem;
+  }
+
+  @media (max-width:767px){
+
+  }
+
+  @media (max-width:756px){
+    .abt-main-text{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .abt-main-text h2 {
+        margin-top: 1rem;
+    }
+    .abt-main-text p{
+        margin-top: 1rem;
+    }
+    .abt-sec-5-content-1{
+        margin-top: 1rem;
+    }
+    .abt-sec-5-content-1 p{
+        width: 100% !important;
+        text-align: center;
+    }
+  }
+
+  @media (max-width:576px){
+    .abt-tab-card{
+        width: 90%;
+        height: 60vh;
+    }
+  }
+
+  @media (max-width:426px){
+    .abt-tab-card{
+        width: 90%;
+        height: 50vh;
+    }
+  }
+  @media (max-width:401px){
+    .abt-tab-card{
+        width: 100%;
+        height: 40vh;
+    }
+  }
+
+  /* @media (max-width:450px){
+    .abt-tab-card{
+        width: 14rem !important;
+    }
+  }
+
+  @media (max-width:420px){
+    .abt-tab-card{
+        width: 13.5rem !important;
+    }
+  }
+  @media (max-width:400px){
+    .abt-tab-card{
+        width: 12.5rem !important;
+    }
+  } */
+  @media (max-width:350px){
+   
+  }

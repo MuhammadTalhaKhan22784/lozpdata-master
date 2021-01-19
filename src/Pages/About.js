@@ -12,6 +12,10 @@ import AboutSection5 from '../PagesSubComponents/AboutSection5'
 import ResourcesNewsUpdateSec2 from '../PagesSubComponents/ResourcesNewsUpdateSec2'
 import AboutSection7 from '../PagesSubComponents/AboutSection7'
 import AboutSection8 from '../PagesSubComponents/AboutSection8'
+import AboutSection9 from '../PagesSubComponents/AboutSection9'
+import AboutSection10 from '../PagesSubComponents/AboutSection10'
+import DevEnterprise from '../Components/DevEnterprise'
+
 const About = () => {
     return (
         <>
@@ -28,6 +32,11 @@ const About = () => {
             <ResourcesNewsUpdateSec2 />
             <AboutSection7/>
             <AboutSection8/>
+            <AboutSection9/>
+            <AboutSection10/>
+            <DevEnterprise/>
+            <ProductExperienceSection/>
+            <Footer/>
         </>
     )
 }

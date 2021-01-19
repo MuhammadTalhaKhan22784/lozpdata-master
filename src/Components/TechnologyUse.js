@@ -6,7 +6,7 @@ const TechnologyUse = () => {
             <div className="technoUse-section">
                 <div className="technoUse-heading">
                     <h2>Technologies we work with</h2>
-                </div>
+                </div> 
                 <div className="techno-tabs">
                     <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li className="nav-item techno-nav-items" role="presentation">

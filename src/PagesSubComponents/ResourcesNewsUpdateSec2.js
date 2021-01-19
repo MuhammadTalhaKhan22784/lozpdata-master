@@ -1,46 +1,41 @@
 import React from 'react'
+import ResourcesNewsSec2Data from '../Components/Utills/ResourcesNewsSec2Data'
 import '../Pages/Styles/Resources.css'
 
-const ResourcesNewsUpdateSec2 = () => {
+const ResourcesNewsUpdateSec2 = (props) => {
     return (
         <>
             <div className="res-news-sec-2">
+                <div 
+                style={{display: props.isShow ? `none` : `block`}}
+                className="res-news-2-main">
+                    <h2 className="fs-1">Media mentions</h2>
+                    <p className="fs-5">We stay in the news for our incredible tech achievements.</p>
+                </div>
                 <div className="container">
                     <div className="row gy-5">
-                        <div className="col-12 col-sm-12 col-md-5 col-lg-4">
+                        <ResourcesNewsSec2Data
+                            resImg="https://www.cubix.co/storage/app/media/about/yahoo-logo.svg"
+                            resPara="Yahoo There's finally a dating app for people with disabilities"
+                        />
+                        <ResourcesNewsSec2Data
+                            resImg="https://www.cubix.co/storage/app/media/about/BuzzFeed-logo.svg"
+                            resPara="Yahoo There's finally a dating app for people with disabilities"
+                        />
+                        <ResourcesNewsSec2Data
+                            resImg="https://www.cubix.co/storage/app/media/about/yahoo-logo.svg"
+                            resPara="Yahoo There's finally a dating app for people with disabilities"
+                        />
 
-                            <div className="res-news-card card " style={{width: `19rem`, padding:`20px`}}>
-                                <img src="https://www.cubix.co/storage/app/media/about/yahoo-logo.svg" className="card-img-top" alt="..." />
-                                <div>
-                                    <p className="card-text text-center fs-6">Yahoo There's finally a dating app for people with disabilities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-5 col-lg-4">
 
-                            <div className="res-news-card card " style={{width: `19rem`, padding:`20px`}}>
-                                <img src="https://www.cubix.co/storage/app/media/about/BuzzFeed-logo.svg" className="card-img-top" alt="..." />
-                                <div>
-                                    <p className="card-text text-center fs-6">Yahoo There's finally a dating app for people with disabilities</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-5 col-lg-4">
 
-                            <div className="res-news-card card " style={{width: `19rem`, padding:`20px`}}>
-                                <img src="https://www.cubix.co/storage/app/media/about/yahoo-logo.svg" className="card-img-top" alt="..." />
-                                <div>
-                                    <p className="card-text text-center fs-6">Yahoo There's finally a dating app for people with disabilities</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </>
     )
 }
- {/* <div className="res-news-card">
+{/* <div className="res-news-card">
                                 <div className="res-news-card-content">
                                     <img src="https://www.cubix.co/storage/app/media/about/yahoo-logo.svg" />
                                     <p className="fs-6">
