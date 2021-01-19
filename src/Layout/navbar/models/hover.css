@@ -195,6 +195,7 @@ font-size: 0.8em;
     width: 99.5%;
     display: none;
 }
+
 .abouts:hover>.model_div3{
     display: block;
 }

@@ -100,13 +100,26 @@
 .servicesss,
 .solutions,
 .works,
-.abouts,
+.abouts, 
 .contacts,
 .resourcess,
 .cl_li {
   /* color: black; */
   color: white;
 }
+.servicesss:hover{
+  color: white !important;
+}
+.works:hover{
+  color: white;
+}
+.contacts:hover{
+  color: white;
+}
+.abouts:hover{
+  color: white;
+}
+
 
 .servicesss.act {
   color: black;
@@ -132,6 +145,11 @@
 /* .servicesss:hover,.solutions:hover,.abouts:hover,.resourcess:hover{
     color: black;
 } */
+
+.servicesss2:hover,.servicesss2:hover ,.about2:hover,.resourcess2:hover,.contacts2:hover, .work2:hover {
+  color: black;
+}
+
 .servicesss2,
 .solutions2,
 .about2,

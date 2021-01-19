@@ -42,10 +42,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                             //   className='servicesss'
                             className={!vertical ? 'servicesss ' : 'servicesss2'}
                         ><Link
-                        className={!vertical ? `servicesss ${color ? "act" : ""}  ` : 'servicesss2'}
+
                             onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
 
-                            to="/services" >Services</Link>
+                            to="/services" className={!vertical ? `servicesss ${color ? "act" : ""}  ` : 'servicesss2'} >Services</Link>
 
                             <div className='model_div'>
                                 <ServiceModel value={value} />
