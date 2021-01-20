@@ -1756,8 +1756,14 @@
   .hictic-img-2{
     left: 55% !important;
   }
+  .technoPartner-heading h2{
+    padding-top: 25px 0;
+    width: 90% !important;
+    line-height: 30px !important;
+  }
 }
 @media (max-width: 375px) {
+ 
   .bg-slider h2 {
     font-size: 30px;
     text-align: center;
@@ -2050,6 +2056,9 @@
     color: white;
     /* border: 2px solid red; */
     line-height: 26px;
+}
+.technoPartner-heading h2{
+  padding-top: 3rem !important;
 }
 }
 
