@@ -6,9 +6,10 @@ const PrdCards = (props) => {
     return (
         <>
             <div className="card prd-card">
+                
                 <i className={props.AppiconName}></i>
                 <div className="card-body">
-                    <p className="card-text text-center">{props.AppiconTextOne}<br /> {props.AppiconTextTwo}</p>
+                    <p className="fs-6 lh-base card-text fw-bold text-center">{props.AppiconTextOne}<br /> {props.AppiconTextTwo}</p>
                 </div>
             </div>
         </>

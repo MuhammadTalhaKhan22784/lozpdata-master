@@ -62,7 +62,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                         <div className='model_div2'>
                                 <SolutionModel />
 
-                            </div>
+                            </div> 
                         </li>
                         <li className={!vertical ? `works ${color ? "act" : ""}` : 'work2'}>
                             <Link
