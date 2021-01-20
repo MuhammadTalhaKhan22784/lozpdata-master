@@ -45,7 +45,7 @@ const Services = () => {
                         <p>We bring to you award-winning products, excellent UI/UX, and a world-class tech talent of web and mobile arena that bridges the gap between the creative and technology world. AtLozpdata , our solutions become a technology brand that others take inspiration from.</p>
                     </div>
                     <div className="container">
-                        <div className="row">
+                        <div className="row gy-5">
                             <div className="col-sm-12 col-md-6 col-lg-3">
                                 <ServicePageCards cardNum="23%"
                                     cardText="INCREASED RESPONSE TIME"
