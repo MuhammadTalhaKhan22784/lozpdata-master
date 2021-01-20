@@ -1965,11 +1965,11 @@
   }
 
   .techno-logos-items > img {
-    width: 110px;
+    width: 100%;
   }
   .techno-logos-items > span {
     font-size: 16px;
-    width: 9rem;
+    width: 100%;
     margin: 0 auto;
     color: black;
     font-weight: 600;
