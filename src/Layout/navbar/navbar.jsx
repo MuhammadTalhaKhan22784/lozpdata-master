@@ -86,7 +86,6 @@ const Navbar = () => {
     return (
         <div style={{ backgroundColor: color ? "white" : "transparent" }} className={!hide ? 'containerr' : 'containerr2'}>
             <div className='sub_navbar_div'>
-
                 <div className='logo_div'>
                     <Link to="/"
                         onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}

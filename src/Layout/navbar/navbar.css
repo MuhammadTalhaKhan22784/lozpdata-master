@@ -24,6 +24,9 @@
   justify-content: space-between;
   transition: all 0.2s linear;
 }
+/* .work_div{
+  height: 600px;
+} */
 
 .logo_div {
   margin-top: 15px;
@@ -194,7 +197,7 @@ color: red;
   width: 100vw;
   background-color: white !important;
   overflow-y: scroll !important;
-  height: 1000% !important;
+  height: 804% !important;
   /* height:fit-content !important ; */
 }
 .main_list2 {

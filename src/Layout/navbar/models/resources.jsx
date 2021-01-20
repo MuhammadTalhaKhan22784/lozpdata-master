@@ -1,4 +1,4 @@
-import {React, useState } from 'react'
+import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './hover.css'
 
@@ -11,7 +11,9 @@ const ResourcesModel = ({ open2 }) => {
             <div className={!open2 ? 'sub_model_div' : '.sub_model_div2'}>
                 <div className='info_div'>
                     <h3> Resources </h3>
-                    <div className={!open2 ? 'para_div' : 'para2_div'}>
+                    <div className={!open2 ? 'para_div' : 'para2_div'}
+
+                    >
                         <p>
                             Explore data-rich insights from our content experts and tech geeks, bringing interesting updates from across the globe.
 
@@ -24,8 +26,8 @@ const ResourcesModel = ({ open2 }) => {
                     <div className={!open2 ? 'service_link_div' : '.service_link_div2'}>
                         <ul className='service_ul'>
                             <li>
-                                <Link to="/blog" className='link' 
-                                onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                <Link to="/blog" className='link'
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
                                 >
                                     Blog
                                 </Link>
@@ -35,7 +37,7 @@ const ResourcesModel = ({ open2 }) => {
                             </li>
                             <li>
                                 <Link to="/" className='link'
-                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
                                 >
                                     Press release
                                 </Link>
@@ -52,9 +54,9 @@ const ResourcesModel = ({ open2 }) => {
                                 <p>Stay Informed about us</p>
                             </li>
                             <li>
-                                <Link to="/" 
-                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
-                                className='link'>Events</Link>
+                                <Link to="/"
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                    className='link'>Events</Link>
                                 <p>Global tech events</p>
                             </li>
 

@@ -7,7 +7,7 @@ import AboutModel from '../navbar/models/about'
 import ResourcesModel from '../navbar/models/resources'
 import { Link } from 'react-router-dom';
 import MyVerticallyCenteredModal from '../../Components/Modals/Modal';
- 
+
 
 // import HoverModel from './service/aboutModel'
 const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hideAbout, color, setcolor }) => {
@@ -25,6 +25,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
     const handleAbout = (e) => {
         setValue(e)
         setOpen2(!open2)
+
     }
 
 
@@ -62,7 +63,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                         <div className='model_div2'>
                                 <SolutionModel />
 
-                            </div> 
+                            </div>
                         </li>
                         <li className={!vertical ? `works ${color ? "act" : ""}` : 'work2'}>
                             <Link
@@ -86,8 +87,13 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                             onMouseOver={showFunc}
                             onMouseLeave={hideFunc}
                             value='4' className={!vertical ? `resourcess ${color ? "act" : ""}` : 'resourcess2'}
-                        >Resources
-                        <div className='model_div4'>
+                        ><Link
+                            onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+
+                            className={!vertical ? `resourcess ${color ? "act" : ""}` : 'resourcess2'} >Resources</Link>
+                            <div className='model_div4'
+
+                            >
                                 <ResourcesModel />
 
                             </div>
@@ -163,8 +169,13 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                                 : null
                             }
                             <li className='resources' >
-                                <p>Resource</p>
-                                <ExpandMoreIcon className='expand' onClick={() => handleAbout('resources')} />
+                                {/* <p>Resource</p> */}
+                                <Link
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                    className={!vertical ? `resourcess ${color ? "act" : ""}` : 'resourcess2'} >Resources</Link>
+                                <ExpandMoreIcon className='expand'
+
+                                    onClick={() => handleAbout('resources')} />
                             </li>
                             {open2 === true && value == 'resources' ?
 

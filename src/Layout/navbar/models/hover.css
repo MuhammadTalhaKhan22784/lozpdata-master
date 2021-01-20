@@ -49,6 +49,7 @@
     /* border: solid 2px; */
     /* width: 100%; */
     max-width: 650px;
+    /* height: 500px; */
   margin: 0 auto;
     padding: 15px;
     color: black;
@@ -77,6 +78,7 @@
 .service_ul{
     /* border: solid 2px; */
     width: 250px;
+    height: max-content !important;
 }
 .service_ul>li,.service_ul2>li{
     /* border: solid 2px; */
