@@ -26,7 +26,6 @@ const ResourcesModel = ({ open2 }) => {
                             <li>
                                 <Link to="/blog" className='link' 
                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
-
                                 >
                                     Blog
                                 </Link>
@@ -35,7 +34,9 @@ const ResourcesModel = ({ open2 }) => {
                                 </p>
                             </li>
                             <li>
-                                <Link to="/" className='link'>
+                                <Link to="/" className='link'
+                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                >
                                     Press release
                                 </Link>
                                 <p>
@@ -51,7 +52,9 @@ const ResourcesModel = ({ open2 }) => {
                                 <p>Stay Informed about us</p>
                             </li>
                             <li>
-                                <Link to="/" className='link'>Events</Link>
+                                <Link to="/" 
+                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                className='link'>Events</Link>
                                 <p>Global tech events</p>
                             </li>
 

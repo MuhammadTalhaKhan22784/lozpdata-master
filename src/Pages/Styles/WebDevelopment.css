@@ -261,7 +261,11 @@
 
   } */
 }
-
+@media (max-width:768px){
+  .bg-web-dev-content h5{
+    width: 90% !important;
+  }
+}
 @media (max-width:700px){
   .bg-web-development{
     padding-left: 0px !important;

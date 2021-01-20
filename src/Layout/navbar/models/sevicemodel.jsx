@@ -31,8 +31,6 @@ const ServiceModel = ({ openn }) => {
                                 onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                 to="/mobile-application" className='link' >
                                     Mobile Application 
-                                    
-                                    
                                 </Link>
                                 <p>iOS, Android and Wearable Apps
                                 </p>

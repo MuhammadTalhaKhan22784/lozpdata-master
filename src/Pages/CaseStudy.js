@@ -8,9 +8,12 @@ import CaseStudySection4 from "../PagesSubComponents/CaseStudySection4"
 import CaseStudySection5 from "../PagesSubComponents/CaseStudySection5"
 import CaseStudySection6 from "../PagesSubComponents/CaseStudySection6"
 import CaseStudySection7 from "../PagesSubComponents/CaseStudySection7"
+import ProductExperienceSection from "../Components/ProductExperienceSection"
+import Footer from "../Layout/Footer"
 
 let CaseStudy = (props) => {
     return(
+        <>
         <div className="CaseStudy">
              <Navbar/>
              <CaseStudySection1 />
@@ -21,6 +24,9 @@ let CaseStudy = (props) => {
              <CaseStudySection6 />
              <CaseStudySection7 />
         </div>
+        <ProductExperienceSection/>
+        <Footer/>
+        </>
     )
 }
 

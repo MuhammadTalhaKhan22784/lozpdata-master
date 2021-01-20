@@ -518,7 +518,7 @@
 
 .CaseStudySection7_imageBox {
   width: 100%;
-  height: 85vh;
+  height: 81vh;
 }
 .CaseStudySection7_imageBox img {
   width: 100%;
@@ -533,5 +533,18 @@
     height: auto;
   }
 }
+
+/* @media (max-width:768px){
+  .s-swipe-1{
+    height: max-content;
+  }
+  .s-swipe-2 img{
+    object-fit: contain;
+    height: max-content;
+  }
+  .s-swipe-2{
+    height: max-content;
+  }
+} */
 
 /* CaseStudySection7 ends ====================================================================== */

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 // import Logo from '../images/logo.png'
 import NavList from '../navbar/navbarList'
 import SortIcon from '@material-ui/icons/Sort';
@@ -15,29 +15,29 @@ import { Link } from 'react-router-dom';
 // import logoImg1 from '../../Images/logo-white12.svg'
 import logoImg1 from '../../Images/Untitled-2.svg'
 
-            
+
 const Navbar = () => {
-    let [color , setcolor] = useState(false)
+    let [color, setcolor] = useState(false)
     const [width, setWidth] = React.useState(window.innerWidth);
     const updateWidthAndHeight = () => {
         setWidth(window.innerWidth);
-      };
-      React.useEffect(() => {
+    };
+    React.useEffect(() => {
         window.addEventListener("resize", updateWidthAndHeight);
         return () => window.removeEventListener("resize", updateWidthAndHeight);
-    },[]);
-    
-    
+    }, []);
+
+
     let [hide, setHide] = useState(false)
     let [model, setModel] = useState(false)
     let [open, setOpen] = useState(false)
-    let [value ,setValue] =useState('')
-    if(width>990){
-        open=false
+    let [value, setValue] = useState('')
+    if (width > 990) {
+        open = false
     }
-    if(width<990){
+    if (width < 990) {
         // open=false
-        hide=true
+        hide = true
         // document.body.classList.add('scroll');
     }
 
@@ -61,34 +61,36 @@ const Navbar = () => {
     const handleOpen = () => {
         setOpen(!false)
         document.body.classList.add('scroll');
-        
-        
+
+
     }
 
-    const handleHideAbout =(e)=>{
+    const handleHideAbout = (e) => {
         setModel(!model)
     }
-    const handleShowww =()=>{
+    const handleShowww = () => {
         console.log('true')
     }
 
     useEffect(() => {
-        window.addEventListener("scroll",() => {
-            if(window.scrollY  > 200){
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
                 setcolor(true)
             }
-            else{
+            else {
                 setcolor(false)
             }
         })
     })
 
     return (
-        <div style={{backgroundColor : color ? "white" : "transparent"}} className={!hide? 'containerr' :'containerr2'}>
+        <div style={{ backgroundColor: color ? "white" : "transparent" }} className={!hide ? 'containerr' : 'containerr2'}>
             <div className='sub_navbar_div'>
 
                 <div className='logo_div'>
-                   <Link to="/"> <img className='logo' src={logoImg1} style={{filter : `${color ? "invert(1)" : ""} `}} alt=""  /></Link>
+                    <Link to="/"
+                        onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                    > <img className='logo' src={logoImg1} style={{ filter: `${color ? "invert(1)" : ""} ` }} alt="" /></Link>
                 </div>
                 <div>
                     <NavList color={color} setcolor={setcolor} openList={open} vertical={hide} aboutFunc={handleAbout} hideAbout={handleHideAbout} showFunc={handleShow} hideFunc={handleHide} />
@@ -103,12 +105,12 @@ const Navbar = () => {
                         </div>
                         :
                         <div className='close_div'>
-                            <CloseIcon className='close' onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }} />
+                            <CloseIcon className='close' onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }} />
                         </div>
-                }
+                    }
                 </div>
             </div>
-            
+
         </div>
     )
 }
