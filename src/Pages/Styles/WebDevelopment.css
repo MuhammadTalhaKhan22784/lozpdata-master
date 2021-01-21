@@ -211,6 +211,12 @@
   } */
 }
 
+@media (max-width:1024px){
+  .bg-web-development{
+    height: 92vh;
+  }
+}
+
 @media (max-width:1000px){
   .web-card-text {
   padding-left: 4rem;
@@ -218,10 +224,7 @@
   .web-dev-sec-7{
   }
 }
-@media (max-width:900px){
-  .web-dev-sec-7{
-  }
-}
+
 /* 
 @media (max-width:800px){
  

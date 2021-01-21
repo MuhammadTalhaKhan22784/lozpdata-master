@@ -16,8 +16,8 @@ import { Link } from 'react-router-dom';
 import logoImg1 from '../../Images/Untitled-2.svg'
 
 
-const Navbar = () => {
-    let [color, setcolor] = useState(false)
+const Navbar = ({mode = false}) => {
+    let [color, setcolor] = useState(mode)
     const [width, setWidth] = React.useState(window.innerWidth);
     const updateWidthAndHeight = () => {
         setWidth(window.innerWidth);
@@ -78,7 +78,7 @@ const Navbar = () => {
                 setcolor(true)
             }
             else {
-                setcolor(false)
+                setcolor(mode)
             }
         })
     })

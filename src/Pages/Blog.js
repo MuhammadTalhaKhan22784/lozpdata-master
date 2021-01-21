@@ -8,7 +8,7 @@ import Footer from '../Layout/Footer'
 const Blog = () => {
     return (
         <>
-            <Navbar />
+            <Navbar mode={true}/>
             <WorkSectionData1
                 bgText="We help businesses"
                 bgPara1="Empower people through technology and innovative solutions"

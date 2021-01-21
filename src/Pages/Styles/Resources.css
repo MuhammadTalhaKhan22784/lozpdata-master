@@ -288,6 +288,9 @@ color: #EA5A59;
         object-fit: contain;
         margin-bottom: 1rem;
     }
+    .blog-card{
+        width: 100% !important;
+    }
 }
 
 

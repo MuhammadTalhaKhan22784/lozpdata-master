@@ -139,7 +139,7 @@ let Work = (props) => {
     return (
         <>
             <div>
-                <Navbar />
+                <Navbar mode={true} />
                 <WorkSection1 />
                 {obj.slice(0, number).map((item, index) => {
                     return <WorkSection2 key={index} heading={item.heading} para={item.para} backgorundimage={item.backgorundimage} image={item.image} condition={item.condition} />

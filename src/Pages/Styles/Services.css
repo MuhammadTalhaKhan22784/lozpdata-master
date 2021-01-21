@@ -165,10 +165,31 @@
     font-weight: 600;
 }
 
-.s-swipe-2{
+.s-image{
     width: 100%;
-    height: 100vh;
+    background-size: cover;
+    transition: all 0.4s;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: center;
+    left: 0;
+
 }
+
+.slide:hover .s-image{
+    transform: scale(1.2);
+}
+
+.s-swipe-2{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-page-one.jpg);
+}
+
+.s-swipe-2-1{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+}
+
+
 .s-swipe-p{
     width: 100%;
 }

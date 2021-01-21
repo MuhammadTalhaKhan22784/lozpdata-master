@@ -78,7 +78,7 @@ const Services = () => {
                     </div>
                 </div>
             </Element>
-            <ServicesSwiperRightCards />
+            <ServicesSwiperRightCards content="Hello WOrld" />
             <ServicesSwiperLeftCards />
             <ServicesSwiperRightCards />
             <ServicesSwiperLeftCards />

@@ -4,7 +4,7 @@ import '../../Pages/Styles/Resources.css'
 const BlogCardData = () => {
     return (
         <>
-            <div className="col-12 col-sm-12 col-md-6 col-lg-4">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-4">
                 <Link to="blog-card-1">
                     <div className="blog-card card" style={{ width: "22rem" }}>
                         <img src="https://www.cubix.co/storage/app/uploads/public/600/5a3/774/thumb_850_500_300_0_0_auto.jpg" className="card-img-top" alt="..." />
