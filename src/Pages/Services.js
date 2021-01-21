@@ -65,7 +65,7 @@ const Services = () => {
                                 />
                             </div>
                             <div className="col-sm-12 col-md-6 col-lg-3">
-                                <ServicePageCards cardNum="23%"
+                                 <ServicePageCards cardNum="23%"
                                     cardText="INCREASED RESPONSE TIME"
                                 />
                             </div>
@@ -79,8 +79,6 @@ const Services = () => {
                 </div>
             </Element>
             <ServicesSwiperRightCards content="Hello WOrld" />
-            <ServicesSwiperLeftCards />
-            <ServicesSwiperRightCards />
             <ServicesSwiperLeftCards />
             <DevEnterprise />
             <ProductExperienceSection />

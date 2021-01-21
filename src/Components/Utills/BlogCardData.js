@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Pages/Styles/Resources.css'
-const BlogCardData = () => {
+const BlogCardData = () => { 
     return (
         <>
             <div className="col-12 col-sm-12 col-md-12 col-lg-4">

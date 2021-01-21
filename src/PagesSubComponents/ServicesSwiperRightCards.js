@@ -46,35 +46,36 @@ const ServicesSwiperRightCards = ({ content }) => {
                             }} grabCursor={true} onSwiper={(swiper) => {
                                 // Delay execution for the refs to be defined
                                 setTimeout(() => {
-                                  // Override prevEl & nextEl now that refs are defined
-                                  swiper.params.navigation.prevEl = navigationPrevRef.current
-                                  swiper.params.navigation.nextEl = navigationNextRef.current
-                        
-                                  // Re-init navigation
-                                  swiper.navigation.destroy()
-                                  swiper.navigation.init()
-                                  swiper.navigation.update()
+                                    // Override prevEl & nextEl now that refs are defined
+                                    swiper.params.navigation.prevEl = navigationPrevRef.current
+                                    swiper.params.navigation.nextEl = navigationNextRef.current
+
+                                    // Re-init navigation
+                                    swiper.navigation.destroy()
+                                    swiper.navigation.init()
+                                    swiper.navigation.update()
                                 })
-                              }}>
+                            }}>
 
                                 <SwiperSlide className="slide">
-                                    <div className="position-relative w-100" style={{height: `80vh`}}>
-                                    <div className="s-swipe-2 s-image">
+                                    <div className="position-relative w-100" style={{ height: `80vh` }}>
+                                        <div className="s-swipe-2 s-image">
 
-                                    </div>
-                                    <div className="position-relative">
-                                    HHELfjkjaswwaj
-                                    </div>
+                                        </div>
+                                        <div className="s-text">
+                                            <button>Website</button>
+                                            <h3 className="fs-4 mt-3">Today today</h3>
+                                        </div>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide className="slide">
-                                <div className="position-relative w-100" style={{height: `80vh`}}>
-                                    <div className="s-swipe-2-1 s-image">
+                                    <div className="position-relative w-100" style={{ height: `80vh` }}>
+                                        <div className="s-swipe-2-1 s-image">
 
-                                    </div>
-                                    <div className="position-relative">
-                                    HHELfjkjaswwaj
-                                    </div>
+                                        </div>
+                                        <div className="position-relative">
+                                            HHELfjkjaswwaj
+                                        </div>
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

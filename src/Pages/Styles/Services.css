@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 8rem;
 }
 
 .service-main-text-1 h6{
@@ -118,12 +119,12 @@
 /* Services Swiper Section */
 
 .services-swiper-Section{
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .s-swipe-1{
     /* width: 50%; */
-    height: 100vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -163,7 +164,7 @@
 .s-swipe-ul span{
     color: black;
     font-weight: 600;
-}
+} 
 
 .s-image{
     width: 100%;
@@ -181,7 +182,12 @@
     transform: scale(1.2);
 }
 
+.slide:hover .s-text{
+    transform: translateY(-20%);
+}
+
 .s-swipe-2{
+    
     background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-page-one.jpg);
 }
 
@@ -189,6 +195,32 @@
     background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
 }
 
+.s-swipe-3{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+}
+
+.s-swipe-3-1{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+}
+
+.s-text{
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+
+.s-text button{
+    background-color: #4869e8;
+    color: white;
+    border: none;
+    width: 6rem;
+    font-weight: 400;
+    height: 2rem;
+}
+.s-text h3{
+    color: white;
+    font-weight: bold;
+}
 
 .s-swipe-p{
     width: 100%;
