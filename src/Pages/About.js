@@ -23,20 +23,24 @@ const About = () => {
             <WebComponentData isShow
                 imgIcon=""
                 bgText="About"
-                bgPara="At Cubix, We Deliver Successful Products By Doing Three Things: Being Accountable For Our Projects, Making Our Methods Transparent, And Building Strong Relationships With Our Clients."
+                bgPara="Lozpdata is a software and mobile app development company
+                with a world-class team of talented data scientists,
+                developers, designers, mathematicians, engineers, and
+                creative artists. We are motivated to build elegant and
+                functional digital products that solve complex problems."
             />
             <AboutSection2 />
             <AboutSection3 />
             <AboutSection4 />
             <AboutSection5 />
             <ResourcesNewsUpdateSec2 />
-            <AboutSection7/>
-            <AboutSection8/>
-            <AboutSection9/>
-            <AboutSection10/>
-            <DevEnterprise/>
-            <ProductExperienceSection/>
-            <Footer/>
+            <AboutSection7 />
+            <AboutSection8 />
+            <AboutSection9 />
+            <AboutSection10 />
+            <DevEnterprise />
+            <ProductExperienceSection />
+            <Footer />
         </>
     )
 }

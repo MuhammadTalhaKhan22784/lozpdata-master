@@ -54,7 +54,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                             </div>
 
                         </li>
-                        <li
+                        {/* <li
 
                             value='2' className={!vertical ? `solutions ${color ? "act" : ""} ` : 'solutions2 '}
                             onMouseOver={showFunc}
@@ -64,7 +64,7 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                                 <SolutionModel />
 
                             </div>
-                        </li>
+                        </li> */}
                         <li className={!vertical ? `works ${color ? "act" : ""}` : 'work2'}>
                             <Link
                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
@@ -137,10 +137,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                                 </ul>
                                 : null
                             }
-                            <li className='solution'>
+                            {/* <li className='solution'>
                                 <p>Solutions</p>
                                 <ExpandMoreIcon className='expand' onClick={() => handleShoww('solution')} />
-                            </li>
+                            </li> */}
                             {open === true && value == 'solution' ?
 
                                 <ul>

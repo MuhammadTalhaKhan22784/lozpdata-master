@@ -1,7 +1,7 @@
 import React from 'react'
 
 const WorkSectionData1 = (props) => {
-    return (
+    return ( 
         <>
             <div className="worksection1">
                 <h1 className="fs-1">{props.bgText}</h1>

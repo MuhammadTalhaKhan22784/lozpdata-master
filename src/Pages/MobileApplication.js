@@ -1,8 +1,12 @@
 import React from 'react'
 import Footer from '../Layout/Footer'
-// import Navbar from "../Layout/Navbar"
 import Navbar from "../Layout/navbar/navbar"
 import "./Styles/MobileApplication.css"
+import Fade from 'react-reveal/Fade';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import DevEnterprise from '../Components/DevEnterprise';
+import ProductExperienceSection from '../Components/ProductExperienceSection';
+
 
 const MobileApplication = () => {
     return (
@@ -13,16 +17,27 @@ const MobileApplication = () => {
                 <div className="header">
                     <div className="content">
                         <div>
-                            <h1>
-                                <span className="span">Full-stack mobile </span>
-                                <span className="span">app development </span>
-                                <span className="span">company </span>
-                            </h1>
+                            <Fade bottom duration={1800} delay={200}>
+                                <h1>
+                                    <span className="span">Full-stack mobile </span>
+                                    <span className="span">app development </span>
+                                    <span className="span">company </span>
+                                </h1>
+                            </Fade>
                         </div>
                         <div>
-                            <span className="span2">Delivering Sophistication through a Refined Process —</span>
-                            <span className="span2">We build purpose-driven mobile apps with your success</span>
-                            <span className="span2">in mind.</span>
+                            <Fade bottom duration={2000} delay={400}>
+                                <span className="span2">Delivering Sophistication through a Refined Process —</span>
+                            </Fade>
+                            <Fade bottom duration={2200} delay={500}>
+                                <span className="span2">We build purpose-driven mobile apps with your success</span>
+                            </Fade>
+                            <Fade bottom duration={2300} delay={600}>
+                                <span className="span2">in mind.</span>
+                            </Fade>
+
+
+
                         </div>
 
                         <div className="ul">
@@ -101,50 +116,139 @@ const MobileApplication = () => {
                     <h1>Mobile app services the Lozpdata way</h1>
                     <p>Whether you are a small-scale business, a startup, or an enterprise looking to build a mobile app, our development process remains the same. We transform your ideas into successful mobile apps that become an integral part of everyone’s lives. With our smooth app development process, the apps we build are engaging, robust, user-friendly, and well-crafted.</p>
                 </div>
-
+                {/*  */}
                 <div className="section4">
 
                     <div>
                         <h1 className="awards">Awards & Recognitions</h1>
                     </div>
-                    <div className="sec4cards">
-                        <div className="sec4cardsitem">
-                            <div >
-                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
-                                <h2>forbes technology council</h2>
-                                <p>recognized member of forbes technology council</p>
+                    <Swiper navigation={true} grabCursor={true} className="awards-slider">
+                        <SwiperSlide>
+                            <div className="sec4cards">
+
+                                <div className="sec4cardsitem">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
+                                        <h2>forbes technology council</h2>
+                                        <p>recognized member of forbes technology council</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top hybrid app developers june 2020</h2>
+                                        <p>Top hybrid app development company</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top mobile app </h2>
+                                        <p>Top mobile app development company in 2020</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
+                                        <h2>Top mobile application developers</h2>
+                                        <p>Top rated app development companies in 2020</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="sec4cardsitem down">
-                            <div >
-                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                <h2>Top hybrid app developers june 2020</h2>
-                                <p>Top hybrid app development company</p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="sec4cards">
+
+                                <div className="sec4cardsitem">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
+                                        <h2>forbes technology council</h2>
+                                        <p>recognized member of forbes technology council</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top hybrid app developers june 2020</h2>
+                                        <p>Top hybrid app development company</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top mobile app </h2>
+                                        <p>Top mobile app development company in 2020</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
+                                        <h2>Top mobile application developers</h2>
+                                        <p>Top rated app development companies in 2020</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="sec4cardsitem">
-                            <div>
-                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                <h2>Top mobile app </h2>
-                                <p>Top mobile app development company in 2020</p>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="sec4cards">
+
+                                <div className="sec4cardsitem">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
+                                        <h2>forbes technology council</h2>
+                                        <p>recognized member of forbes technology council</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div >
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top hybrid app developers june 2020</h2>
+                                        <p>Top hybrid app development company</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
+                                        <h2>Top mobile app </h2>
+                                        <p>Top mobile app development company in 2020</p>
+                                    </div>
+                                </div>
+
+
+                                <div className="sec4cardsitem down">
+                                    <div>
+                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
+                                        <h2>Top mobile application developers</h2>
+                                        <p>Top rated app development companies in 2020</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="sec4cardsitem down">
-                            <div>
-                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
-                                <h2>Top mobile application developers</h2>
-                                <p>Top rated app development companies in 2020</p>
-                            </div>
-                        </div>
-                    </div>
+                        </SwiperSlide>
+                    </Swiper>
 
                     <div className="awardandarrows">
                         <h3>see all our awards</h3>
 
-                        <div>
+                        {/* <div>
                             <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="phototectimage" />
                             <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="phototectimage" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -300,13 +404,32 @@ const MobileApplication = () => {
                             <button>contact us</button>
                         </div>
                     </div>
-
-                    <div className="child2">
-                        <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-77.png" alt="phototectimage" /></div>
-                        <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-111.png" alt="phototectimage" /></div>
-                        <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-1111.png" alt="phototectimage" /></div>
-                        <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-66.png" alt="phototectimage" /></div>
-                    </div>
+                    <Swiper navigation={true} grabCursor={true} className="mb-slider">
+                        <SwiperSlide>
+                            <div className="child2">
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-77.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-111.png" alt="phototectimage" /></div>
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-1111.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-66.png" alt="phototectimage" /></div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="child2">
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-77.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-111.png" alt="phototectimage" /></div>
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-1111.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-66.png" alt="phototectimage" /></div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="child2">
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-77.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-111.png" alt="phototectimage" /></div>
+                                <div><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-1111.png" alt="phototectimage" /></div>
+                                <div className="downItem"><img src="https://www.cubix.co/themes/responsiv-clean/assets/images/seo-pages/mobile-seo/bannersimage-66.png" alt="phototectimage" /></div>
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
 
 
@@ -376,10 +499,12 @@ const MobileApplication = () => {
                     </div>
 
                 </div>
-                <Footer />
+                
 
             </div>
-
+             <DevEnterprise/>           
+            <ProductExperienceSection/>
+            <Footer />
 
         </>
     )

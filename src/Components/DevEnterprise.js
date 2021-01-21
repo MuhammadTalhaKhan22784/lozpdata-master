@@ -8,7 +8,7 @@ const DevEnterprise = () => {
                 <div className="dev-eterprise-heading">
                     <h2>We develop enterprise-grade software solutions for businesses.</h2>
                 </div>
-                <Swiper navigation={true} grabCursor={true} className="dev-enterprise-slider">
+                    <Swiper navigation={true} grabCursor={true} className="dev-enterprise-slider">
                     <SwiperSlide>
                         <div className="dev-enterprise-para">
                             <p> “The team stood out because of their swift response time and patience. Lozpdata provided one contact person, which helped streamline project management and coordination. Not only did Lozpdata follow the budget and timeline, the team even offered additional services at no extra charge.” </p>

@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .about-section{
     margin-top: 5rem;
     height: max-content;
@@ -167,6 +173,7 @@
     background: linear-gradient(to right,#0bccee 0,#ac1de1 100%)!important;
     display: flex;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .abt-sec-4-cards{
