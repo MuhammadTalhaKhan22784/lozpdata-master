@@ -54,7 +54,7 @@ const ServicesSwiperRightCards = ({ content }) => {
                                     swiper.navigation.destroy()
                                     swiper.navigation.init()
                                     swiper.navigation.update()
-                                })
+                                }) 
                             }}> 
 
                                 <SwiperSlide className="slide">
