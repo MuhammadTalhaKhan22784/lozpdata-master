@@ -36,6 +36,11 @@ const ServiceModel = ({ openn }) => {
                                 </p>
                             </li>
                             <li>
+                            <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
+                                    className='link' to="/artificial-intelligence">Artificial Intelligence</Link>
+                                <p>AI and Machine Learning</p>
+                            </li>
+                            {/* <li>
                                 <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>
                                   Game Developement
@@ -45,8 +50,8 @@ const ServiceModel = ({ openn }) => {
                                   2D , 3D and isometric Games
                                             
                                 </p>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>
                                     Blockchain Development
@@ -55,10 +60,10 @@ const ServiceModel = ({ openn }) => {
                                 <p>
                                 Blockchain Dapp Development
                                 </p>
-                            </li>
+                            </li> */}
 
 
-                                        <li>
+                                        {/* <li>
                                             <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>Augmented Reality</Link>
                                             <p>Modern AR Appsx</p>
@@ -67,20 +72,16 @@ const ServiceModel = ({ openn }) => {
                                             <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>Business Intelligence</Link>
                                             <p>Bl , Analytics and Big data</p>
-                                        </li>
+                                        </li> */}
                         </ul>
                         <ul className='service_ul2'>
 
-                            <li>
-                            <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
-                                    className='link' to="/artificial-intelligence">Artificial Intelligence</Link>
-                                <p>AI and Machine Learning</p>
-                            </li>
-                            <li>
+                           
+                            {/* <li>
                                 <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>Big Data</Link>
                                 <p>Apps Integrated with Big Data</p>
-                            </li>
+                            </li> */}
                             <li>
                             <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     className='link' to="/web-development">Web Development</Link>
@@ -91,11 +92,11 @@ const ServiceModel = ({ openn }) => {
                                     className='link' to="/mvp-development">MVP Development</Link>
                                 <p>MVP for startups</p>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
                                     to="/" className='link'>Share Point</Link>
                                 <p>Microsoft SharePoint Development Services</p>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
 

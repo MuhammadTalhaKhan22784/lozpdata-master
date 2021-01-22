@@ -1,4 +1,4 @@
-import {React,useState} from 'react'
+import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './hover.css'
 
@@ -25,25 +25,15 @@ const AboutModel = ({ open2 }) => {
                         <ul className='service_ul'>
                             <li>
                                 <Link
-                                 onClick={()=>{setOpen(false);document.body.classList.remove('scroll'); }}
-                                to="/about-process" className='link'>
-                                   Process
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                    to="/about-process" className='link'>
+                                    Process
                                 </Link>
                                 <p>Our Agile Process
                                 </p>
                             </li>
-                            <li>
-                                <Link to="/about-client" className='link'
-                                 onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
-                                >
-                                    
-                                  Clients
-                                </Link>
-                                <p>
-                                    Our Global Clientele
-                                </p>
-                            </li>
-                                <li>
+
+                            {/* <li>
                                 <Link to="/" className='link'
                                  onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}>
                          Press Release
@@ -51,10 +41,22 @@ const AboutModel = ({ open2 }) => {
                                 <p>
                                      From our media desk
                                 </p>
-                            </li> 
+                            </li>  */}
                         </ul>
                         <ul className='service_ul2'>
+                            <li>
+                                <Link to="/about-client" className='link'
+                                    onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
+                                >
 
+                                    Clients
+                                </Link>
+                                <p>
+                                    Our Global Clientele
+                                </p>
+                            </li>
+
+                            {/* 
                             <li>
                                 <Link to="/" className='link'>Careers</Link>
                                 <p>Build your careers with us.</p>
@@ -66,38 +68,38 @@ const AboutModel = ({ open2 }) => {
                             <li>
                                 <Link to="/" className='link'>Manifesto</Link>
                                 <p>Our Business Model</p>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
 
                 </div>
-                    <div className={!open2 ? 'work_div' : 'work_div2'}>
-                        <div className='work_ul'>
+                <div className={!open2 ? 'work_div' : 'work_div2'}>
+                    <div className='work_ul'>
 
-                            <div className='about_div'>
-                                <div className='year_div'>
-                                    <h2 className='head'>12+ </h2>
-                                    <p className='year_para'>Year</p>
-                                </div>
-                                <div className='employe_div'>
-                                    <h2 className='head'>200+</h2>
-                                    <p className='employe_para'>Employees</p>
-                                </div>
+                        <div className='about_div'>
+                            <div className='year_div'>
+                                <h2 className='head'>12+ </h2>
+                                <p className='year_para'>Year</p>
                             </div>
-                            <div className='about_div'>
-                                <div className='year_div'>
-                                    <h2 className='head'>600+ </h2>
-                                    <p className='year_para'>Projects</p>
-                                </div>
-                                <div className='employe_div'>
-                                    <h2 className='head'>550+</h2>
-                                    <p className='employe_para'>Clients</p>
-                                </div>
-
+                            <div className='employe_div'>
+                                <h2 className='head'>200+</h2>
+                                <p className='employe_para'>Employees</p>
                             </div>
                         </div>
+                        <div className='about_div'>
+                            <div className='year_div'>
+                                <h2 className='head'>600+ </h2>
+                                <p className='year_para'>Projects</p>
+                            </div>
+                            <div className='employe_div'>
+                                <h2 className='head'>550+</h2>
+                                <p className='employe_para'>Clients</p>
+                            </div>
+
+                        </div>
                     </div>
+                </div>
 
             </div>
         </div >

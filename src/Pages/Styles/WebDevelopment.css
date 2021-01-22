@@ -294,6 +294,12 @@
   }
 }
 
+@media (max-width:540px){
+  .sd-heading{
+    line-height: 32px;
+  }
+}
+
 @media (max-width:500px){
   .bg-web-dev-content button{
     width: 22.5rem;
@@ -320,8 +326,9 @@
   .bg-web-dev-content button{
     width: 19.5rem;
   }
-  .bg-web-development{
-    height: 75vh !important;
+  .bg-web-dev-content{
+    height: 78vh !important;
+    transform: translateY(108px) !important;
   }
 }
 

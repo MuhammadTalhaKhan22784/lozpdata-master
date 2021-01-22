@@ -35,7 +35,7 @@ const ResourcesModel = ({ open2 }) => {
                                     Stuff that Matters
                                 </p>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/" className='link'
                                     onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
                                 >
@@ -44,7 +44,7 @@ const ResourcesModel = ({ open2 }) => {
                                 <p>
                                     From our media desk
                                 </p>
-                            </li>
+                            </li> */}
                         </ul>
                         <ul className='service_ul2'>
                             <li>
@@ -53,12 +53,12 @@ const ResourcesModel = ({ open2 }) => {
                                     to="/news-updates" className='link' >News & Updates</Link>
                                 <p>Stay Informed about us</p>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/"
                                     onClick={() => { setOpen(false); document.body.classList.remove('scroll'); }}
                                     className='link'>Events</Link>
                                 <p>Global tech events</p>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>
