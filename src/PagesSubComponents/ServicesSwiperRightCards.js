@@ -24,8 +24,8 @@ const ServicesSwiperRightCards = ({ content }) => {
                                 <div className="s-swipe-p">
                                     <p>Enterprises are fast adopting technology to improve their productivity, bring efficiency, and remove barriers preventing free and timely flow of information within the enterprise.</p>
                                 </div>
-                                <div ref={navigationPrevRef} >PREVIOUS</div>
-                                <div ref={navigationNextRef} >NEXT</div>
+                                {/* <div ref={navigationPrevRef} >PREVIOUS</div>
+                                <div ref={navigationNextRef} >NEXT</div> */}
                                 <div className="s-swipe-list">
                                     <div className="s-swipe-ul d-flex flex-column">
                                         <span>Rapid Strategy Workshop™</span>

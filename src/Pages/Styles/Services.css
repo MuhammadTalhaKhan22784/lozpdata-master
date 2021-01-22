@@ -132,8 +132,7 @@
 }
 
 .s-swipe-num{
-    /* margin-left: 100px;
-    margin-top: 100px; */
+   margin-top: 2rem;
 }
 
 .s-swipe-num h6{
@@ -238,8 +237,48 @@
     background-repeat: no-repeat;
 }
 
+/* service section 3 */
 
+.service-sec-3{
+width: 100%;
+}
 
+.pos-sticky{
+    position: sticky;
+    top: 100px;
+}
+
+.sev3-card{
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0 25px 70px rgba(0,0,0,.07);
+    display: flex;
+    padding: 2rem;
+}
+
+.sev3-card p{
+    text-transform: initial;
+    opacity: 0.9;
+}
+.serv-main-1{
+    padding:2rem;
+} 
+.serv-main-1 h2{
+    text-transform: initial;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+.serv-main-1 p{
+    text-transform: initial;
+}
+.serv-main-1 button{
+    background-color: #4869e8;
+    width: 12rem;
+    height: 4.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
 /* .services-swiper-Section .swiper-button-next,
 .services-swiper-Section .swiper-button-prev {
     display: flex !important;
@@ -264,6 +303,13 @@
     .service-main-text-2 p{
         width: 73%;
         margin: 2rem 0;
+    }
+    .col-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .s-swipe-1 {
+        height: 68vh;
     }
 }
 @media(max-width:700px){
@@ -291,6 +337,13 @@
         /* font-size: 27px; */
     
     } 
+}
+
+@media(max-width:488px){
+    .s-swipe-1 {
+    height: max-content;
+
+    }
 }
 
 @media(max-width:473px){

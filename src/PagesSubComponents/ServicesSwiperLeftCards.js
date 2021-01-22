@@ -10,7 +10,7 @@ const ServicesSwiperLeftCards = ({ content }) => {
         <>
             <div className="services-swiper-Section">
                 <div className="container-fluid">
-                    <div className="row">
+                    <div className="row col-rev">
                         <div className="col-lg-6">
 
                             <Swiper

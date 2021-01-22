@@ -6,6 +6,7 @@ import Fade from 'react-reveal/Fade';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import DevEnterprise from '../Components/DevEnterprise';
 import ProductExperienceSection from '../Components/ProductExperienceSection';
+import MobAppSec4 from '../PagesSubComponents/MobAppSec4';
 
 
 const MobileApplication = () => {
@@ -117,143 +118,7 @@ const MobileApplication = () => {
                     <p>Whether you are a small-scale business, a startup, or an enterprise looking to build a mobile app, our development process remains the same. We transform your ideas into successful mobile apps that become an integral part of everyone’s lives. With our smooth app development process, the apps we build are engaging, robust, user-friendly, and well-crafted.</p>
                 </div>
                 {/*  */}
-                <div className="section4">
-
-                    <div>
-                        <h1 className="awards">Awards & Recognitions</h1>
-                    </div>
-                    <Swiper navigation={true} grabCursor={true} className="awards-slider">
-                        <SwiperSlide>
-                            <div className="sec4cards">
-
-                                <div className="sec4cardsitem">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
-                                        <h2>forbes technology council</h2>
-                                        <p>recognized member of forbes technology council</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top hybrid app developers june 2020</h2>
-                                        <p>Top hybrid app development company</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top mobile app </h2>
-                                        <p>Top mobile app development company in 2020</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
-                                        <h2>Top mobile application developers</h2>
-                                        <p>Top rated app development companies in 2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="sec4cards">
-
-                                <div className="sec4cardsitem">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
-                                        <h2>forbes technology council</h2>
-                                        <p>recognized member of forbes technology council</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top hybrid app developers june 2020</h2>
-                                        <p>Top hybrid app development company</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top mobile app </h2>
-                                        <p>Top mobile app development company in 2020</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
-                                        <h2>Top mobile application developers</h2>
-                                        <p>Top rated app development companies in 2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="sec4cards">
-
-                                <div className="sec4cardsitem">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/forbes-technologies-cource1.webp" alt="phototectimage" />
-                                        <h2>forbes technology council</h2>
-                                        <p>recognized member of forbes technology council</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div >
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top hybrid app developers june 2020</h2>
-                                        <p>Top hybrid app development company</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/2020%20-Hybrid%20App%20Developers1.webp" alt="phototectimage" />
-                                        <h2>Top mobile app </h2>
-                                        <p>Top mobile app development company in 2020</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="sec4cardsitem down">
-                                    <div>
-                                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/home/webp/app_development_compay111.webp" alt="phototectimage" />
-                                        <h2>Top mobile application developers</h2>
-                                        <p>Top rated app development companies in 2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-
-                    <div className="awardandarrows">
-                        <h3>see all our awards</h3>
-
-                        {/* <div>
-                            <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="phototectimage" />
-                            <img src="https://cdn0.iconfinder.com/data/icons/feather/96/591276-arrow-right-512.png" alt="phototectimage" />
-                        </div> */}
-                    </div>
-                </div>
-
-
-
+                <MobAppSec4 />
                 <div className="section5">
                     <div>
                         <h1>Apps developed by Lozpdata rake in success</h1>
@@ -499,11 +364,11 @@ const MobileApplication = () => {
                     </div>
 
                 </div>
-                
+
 
             </div>
-             <DevEnterprise/>           
-            <ProductExperienceSection/>
+            <DevEnterprise />
+            <ProductExperienceSection />
             <Footer />
 
         </>

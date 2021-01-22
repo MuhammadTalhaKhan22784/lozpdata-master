@@ -1090,6 +1090,7 @@ top:54% !important;
     height: 13rem;
     padding: 43px 0 !important;
 }
+
 }
 
 @media (max-width: 720px){
@@ -1228,6 +1229,9 @@ top:54% !important;
 @media (max-width:540px){
   .swiper-button-prev:after, .swiper-button-next:after{
     font-size: 2.5rem !important;
+  }
+  .section4 {
+    height: 130rem;
   }
 }
 
@@ -1765,7 +1769,7 @@ top:54% !important;
 /* dev-enterprise-section */
 
 .dev-enterprise-section {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 100%;
   min-height: max-content;
   background: linear-gradient(to top, #f1f4f9 0, transparent 100%) !important;

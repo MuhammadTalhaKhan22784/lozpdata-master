@@ -11,6 +11,7 @@ import ProductExperienceSection from '../Components/ProductExperienceSection'
 import Footer from '../Layout/Footer'
 import BgServicesData from '../Components/Utills/BgServicesData'
 import Fade from 'react-reveal/Fade';
+import ServiceSection3 from './ServiceSection3'
 
 
 
@@ -80,6 +81,7 @@ const Services = () => {
             </Element>
             <ServicesSwiperRightCards content="Hello WOrld" />
             <ServicesSwiperLeftCards />
+            <ServiceSection3/>
             <DevEnterprise />
             <ProductExperienceSection />
             <Footer />

@@ -11,6 +11,7 @@ import DevEnterprise from '../Components/DevEnterprise';
 
 import 'swiper/swiper-bundle.css';
 import PreviousWorkSectionThird from '../Components/Utills/PreviousWorkSectionThird';
+import MobAppSec4 from '../PagesSubComponents/MobAppSec4';
 const Home = () => {
     return (
         <>
@@ -20,6 +21,7 @@ const Home = () => {
             <PreviousWorkSection />
             <PreviousWorkSectionSecond />
             <PreviousWorkSectionThird/>
+             <MobAppSec4/>
              <DevEnterprise />
             <TechnoPartners />
             <ProductExperienceSection />
