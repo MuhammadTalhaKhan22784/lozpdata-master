@@ -168,13 +168,12 @@
 .s-image{
     width: 100%;
     background-size: cover;
-    transition: all 0.4s;
+    transition: all 1.2s;
     height: 100%;
     position: absolute;
     top: 0;
     background-position: center;
     left: 0;
-
 }
 
 .slide:hover .s-image{
@@ -195,11 +194,11 @@
 }
 
 .s-swipe-3{
-    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-page-three.jpg);
 }
 
 .s-swipe-3-1{
-    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/service-page-four.jpg);
 }
 
 .s-text{

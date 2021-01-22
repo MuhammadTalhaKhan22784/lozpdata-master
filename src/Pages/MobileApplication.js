@@ -42,10 +42,15 @@ const MobileApplication = () => {
                         </div>
 
                         <div className="ul">
-                            <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/estee-lauder.png" alt="phototect" />
+                            <Swiper navigation={true} grabCursor={true} className="mb-bg-slider">
+                                <SwiperSlide>
+                                    <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/estee-lauder.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/sapient.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/canon.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/artizone.png" alt="phototect" />
+                                </SwiperSlide>
+                            </Swiper>
+                            
                         </div>
                     </div>
 

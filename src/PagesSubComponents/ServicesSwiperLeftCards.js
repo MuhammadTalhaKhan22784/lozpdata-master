@@ -37,7 +37,7 @@ const ServicesSwiperLeftCards = ({ content }) => {
                                         <div className="s-swipe-3 s-image">
                                         </div>
                                         <div className="position-relative">
-                                            HHELfjkjaswwaj
+                                            {/* HHELfjkjaswwaj */}
                                     </div>
                                     </div>
 
@@ -47,7 +47,7 @@ const ServicesSwiperLeftCards = ({ content }) => {
                                         <div className="s-swipe-3-1 s-image">
                                         </div>
                                         <div className="position-relative">
-                                            HHELfjkjaswwaj
+                                            {/* HHELfjkjaswwaj */}
                                         </div>
                                     </div>
 

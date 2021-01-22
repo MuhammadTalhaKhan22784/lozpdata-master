@@ -5,9 +5,9 @@ import ProductExperienceSection from '../Components/ProductExperienceSection'
 import Footer from '../Layout/Footer'
 
 const BlogCard1 = () => {
-    return (
+    return ( 
         <>
-            <Navbar />
+            <Navbar mode={true}/>
             <div className="blogcard-1">
                 <div className="b-main-1">
                     <h2 className="display-6">SharePoint and Digital Asset Management</h2>

@@ -1090,12 +1090,13 @@ top:54% !important;
     height: 13rem;
     padding: 43px 0 !important;
 }
-
+.bg-slider p {
+    width: 70%;
 }
-
+}
 @media (max-width: 720px){
   .bg-slider p {
-    margin: 0 auto;
+    margin: 31px auto;
     width: 85%;
     text-align: center;
 }
