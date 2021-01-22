@@ -4,8 +4,8 @@ const ContactForm = (props) => {
     return (
         <>
             <div style={{ marginTop: props.isSmallHeading ? '0.5rem' : '2.5rem' }} className="con-right-text">
-                <h2 style={{ fontSize: props.isSmallHeading ? '28px' : '42px' }}>Let's start a project together</h2>
-                <p style={{ fontSize: props.isSmallHeading ? '1em' : '19px' }}>We make all your dreams come true in a successful project.</p>
+                <h2 className="lh-base" style={{ fontSize: props.isSmallHeading ? '28px' : '2.6rem' }}>Let's start a project together</h2>
+                <p className="fs-5 ps-3 pe-3" style={{ fontSize: props.isSmallHeading ? '1em' : '19px' }}>We make all your dreams come true in a successful project.</p>
             </div>
             <div className="contact-input-fields">
                 <div className="mb-3 con-input-fields-1">

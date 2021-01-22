@@ -1827,7 +1827,7 @@ top:54% !important;
   color: black;
   margin: 0 auto;
 } 
-
+ 
 @media (max-width: 376px) {
   .hictic-img-2{
     left: 55% !important;
@@ -1836,6 +1836,9 @@ top:54% !important;
     padding-top: 25px 0;
     width: 90% !important;
     line-height: 30px !important;
+  }
+  .prd-con-cards > .prd-card{
+    width: 8rem !important;
   }
 }
 @media (max-width: 375px) {

@@ -192,3 +192,9 @@
     width: 100%;
   }
 }
+
+@media (max-width:768px){
+  .con-button{
+    margin-bottom: 3rem !important;
+  }
+}

@@ -17,11 +17,7 @@ const Contact = () => {
                         <Link to="/"> <img className='logo' src={logoImg1} alt="" /></Link>
                     </div>
                     <div className="sub-contact-2">
-                        <Swiper className="py-5" loop={true} pagination={{
-                            renderBullet: (i, className) => {
-                                return `<span className="text-white checking" style="cursor: pointer;"> ${locations[i]} </span>`
-                            }
-                        }} navigation={true} grabCursor={true}>
+                        <Swiper className="py-5" loop={true} navigation={true} grabCursor={true}>
                             <SwiperSlide>
                                 <div className="sub-contact-2-item-1">
                                     <h2>Dubai</h2>
@@ -75,7 +71,7 @@ const Contact = () => {
                     <ContactForm />
                 </div>
             </div>
-            
+
         </>
     )
 }
