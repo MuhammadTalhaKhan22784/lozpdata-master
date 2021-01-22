@@ -8,7 +8,7 @@ const WorkSectionData1 = (props) => {
             delay: 100,
             smooth: true
         })
-    }
+    } 
     return (
         <>
             <div className="worksection1">

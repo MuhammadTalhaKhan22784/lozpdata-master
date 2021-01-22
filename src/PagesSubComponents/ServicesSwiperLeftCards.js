@@ -30,15 +30,17 @@ const ServicesSwiperLeftCards = ({ content }) => {
                                         swiper.navigation.update()
                                     })
                                 }}
-                            > 
+                            >
 
                                 <SwiperSlide className="slide">
                                     <div className="position-relative w-100" style={{ height: `80vh` }}>
                                         <div className="s-swipe-3 s-image">
                                         </div>
-                                        <div className="position-relative">
-                                            {/* HHELfjkjaswwaj */}
-                                    </div>
+                                        <div className="s-text">
+                                            <button>Website</button>
+                                            <h3 className="fs-4 mt-3">Today today</h3>
+                                        </div>
+                                       
                                     </div>
 
                                 </SwiperSlide>
@@ -46,9 +48,11 @@ const ServicesSwiperLeftCards = ({ content }) => {
                                     <div className="position-relative w-100" style={{ height: `80vh` }}>
                                         <div className="s-swipe-3-1 s-image">
                                         </div>
-                                        <div className="position-relative">
-                                            {/* HHELfjkjaswwaj */}
+                                        <div className="s-text">
+                                            <button>Website</button>
+                                            <h3 className="fs-4 mt-3">Today today</h3>
                                         </div>
+                                       
                                     </div>
 
                                 </SwiperSlide>
