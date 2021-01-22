@@ -30,7 +30,7 @@ const ServicesSwiperLeftCards = ({ content }) => {
                                         swiper.navigation.update()
                                     })
                                 }}
-                            >
+                            > 
 
                                 <SwiperSlide className="slide">
                                     <div className="position-relative w-100" style={{ height: `80vh` }}>
