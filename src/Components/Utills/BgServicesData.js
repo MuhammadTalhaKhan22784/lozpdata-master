@@ -6,10 +6,10 @@ const BgServicesData = (props) => {
         <>
             <div className="bg-service-Text">
                 <Fade bottom duration={1400} delay={200}>
-                    <h1 className="display-5">{props.bgText}</h1>
+                    <h1 className="display-6">{props.bgText}</h1>
                 </Fade>
                 <Fade bottom duration={1500} delay={400}>
-                    <p>{props.bgPara}</p>
+                    <p className="fs-4">{props.bgPara}</p>
                 </Fade>
             </div>
         </>

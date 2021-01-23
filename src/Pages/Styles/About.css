@@ -523,6 +523,9 @@
     }
   } */
   @media (max-width:376px){
+    .abt-process .bg-web-development{
+        height: 66vh;
+    }
     .abt-sec-3-2 .enlivenem{
         width: 100px;
     }

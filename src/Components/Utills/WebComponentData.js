@@ -3,8 +3,8 @@ import Fade from 'react-reveal/Fade';
 
 const WebComponentData = (props) => {
     return (
-        <> 
- 
+        <>
+
             <div
 
                 style={{

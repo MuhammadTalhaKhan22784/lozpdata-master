@@ -10,18 +10,22 @@ import Footer from '../Layout/Footer'
 const AboutProcess = () => {
     return (
         <>
-            <Navbar/>
-            <WebComponentData isShow
-                imgIcon=""
-                bgText="Process"
-                bgPara="At Cubix, we deliver successful products by doing three
+            <Navbar />
+            <div className="abt-process">
+                <WebComponentData isShow
+                    isBg
+                    imgIcon=""
+                    bgText="Process"
+                    bgPara="At Cubix, we deliver successful products by doing three
                 things: being accountable for our projects, making our
                 methods transparent, and building strong relationships with
                 our clients."
-            /> 
-            <AboutSubComponents/>
-            <ProductExperienceSection/>
-            <Footer/>
+                />
+            </div>
+
+            <AboutSubComponents />
+            <ProductExperienceSection />
+            <Footer />
         </>
     )
 }
