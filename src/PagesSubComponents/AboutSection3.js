@@ -8,10 +8,22 @@ const AboutSection3 = () => {
             <div className="abt-sec-3">
                 <div className="container">
                     <div className="row gx-0 gy-4">
-                        <AboutSection3Data />
-                        <AboutSection3Data />
-                        <AboutSection3Data />
-                        <AboutSection3Data />
+                        <AboutSection3Data 
+                        abtText="2008"
+                        abtSpan="Founded in"
+                        />
+                        <AboutSection3Data 
+                        abtText="600+"
+                        abtSpan="Completed projects"
+                        />
+                        <AboutSection3Data 
+                        abtText="200+"
+                        abtSpan="Talented Cubixians"
+                        />
+                        <AboutSection3Data 
+                        abtText="500+"
+                        abtSpan="Clients"
+                        />
                     </div>
                 </div>
             </div>

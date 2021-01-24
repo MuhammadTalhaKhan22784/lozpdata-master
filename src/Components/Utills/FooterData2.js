@@ -5,9 +5,10 @@ const FooterData2 = (props) => {
         <>
             <div className="footer-data-2">
                 <h2>{props.ftName}</h2>
-                <p>iPhone App Development</p>
-                <p>Android App Development</p>
-                <p>Mobile App Development</p>
+                <p>{props.ftText1}</p>
+                <p>{props.ftText2}</p>
+                <p>{props.ftText3}</p>
+                <p>{props.ftText4}</p>
             </div>
         </>
     )
