@@ -210,19 +210,17 @@ top:54% !important;
   margin: 0rem auto 6rem auto;
 }
 
-.prd-con-cards > .prd-card:hover {
+/* .prd-con-cards > .prd-card:hover {
   background-color: white;
-  /* color: ; */
   transition: 0.6s ease;
-}
-.prd-con-cards .prd-card:hover p {
+} */
+/* .prd-con-cards .prd-card:hover p {
   color: grey !important;
-  /* color: ; */
-}
+} */
 
-.prd-con-cards > .prd-card:hover .fa-mobile-alt {
+/* .prd-con-cards > .prd-card:hover .fa-mobile-alt {
   color: grey !important;
-}
+} */
 
 .prev-work-section-heading > h2 {
   margin: 0 auto;
@@ -2110,7 +2108,7 @@ top:54% !important;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 0;
   }
 
   .testimonials .swiper-button-prev::after {
@@ -2122,8 +2120,8 @@ top:54% !important;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    margin-top: 40px;
-    margin-bottom: 68px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .footer-bottom span {
     color: #808291;

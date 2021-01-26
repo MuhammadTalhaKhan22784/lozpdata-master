@@ -10,7 +10,7 @@ import Footer from '../Layout/Footer'
 const AboutProcess = () => {
     
     return (
-        <>
+        <> 
             <Navbar />
             <div className="abt-process">
                 <WebComponentData isShow
