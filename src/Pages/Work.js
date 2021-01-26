@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useLayoutEffect, useState } from "react"
 import "./Styles/work.css"
 import Navbar from '../Layout/navbar/navbar'
 import WorkSection1 from "../PagesSubComponents/WorkSection1"
@@ -8,6 +8,10 @@ import ProductExperienceSection from '../Components/ProductExperienceSection'
 import Footer from '../Layout/Footer'
 
 let Work = (props) => {
+
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     let [number, setnumber] = useState(4)
     let obj = [
         {

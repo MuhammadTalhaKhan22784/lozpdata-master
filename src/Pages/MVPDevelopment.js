@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 // import Navbar from '../Layout/Navbar'
 import Navbar from '../Layout/navbar/navbar'
 import '../Pages/Styles/MVPDevelopment.css'
@@ -14,6 +14,11 @@ import Fade from 'react-reveal/Fade';
 
 
 const MVPDevelopment = () => {
+
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
+
     return (
         <>
             <Navbar />

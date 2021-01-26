@@ -74,7 +74,7 @@ const AboutModel = ({ open2 }) => {
                     </div>
 
                 </div>
-                <div className={!open2 ? 'work_div' : 'work_div2'}>
+                {/* <div className={!open2 ? 'work_div' : 'work_div2'}>
                     <div className='work_ul'>
 
                         <div className='about_div'>
@@ -99,7 +99,7 @@ const AboutModel = ({ open2 }) => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div >

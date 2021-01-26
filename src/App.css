@@ -194,7 +194,7 @@ top:54% !important;
   border-radius: 10px !important;
 }
 
-.fa-mobile-alt {
+.fa-mobile-alt,.fa-gamepad,.fa-blog,.fa-unlink {
   color: black !important;
   text-align: center;
 }
@@ -642,6 +642,16 @@ top:54% !important;
   opacity: #808291;
   opacity: 0.8;
   /* font-weight: 500; */
+}
+
+.ft-links{
+  color:#808291;
+  opacity: 1;
+}
+
+.ft-links:hover{
+  color:#808291;
+  opacity: 1;
 }
 
 .footer-data-2 {

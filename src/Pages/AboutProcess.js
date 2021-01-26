@@ -8,6 +8,7 @@ import Footer from '../Layout/Footer'
 
 
 const AboutProcess = () => {
+    
     return (
         <>
             <Navbar />

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import '../Pages/Styles/WebDevelopment.css'
 // import Navbar from '../Layout/Navbar'
 import Navbar from '../Layout/navbar/navbar'
@@ -14,6 +14,9 @@ import WebComponentData from '../Components/Utills/WebComponentData'
 
 
 const WebDevelopment = () => {
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     return (
         <>
             <Navbar />

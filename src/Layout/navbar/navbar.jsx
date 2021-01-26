@@ -27,9 +27,7 @@ const Navbar = ({mode = false}) => {
         return () => window.removeEventListener("resize", updateWidthAndHeight);
     }, []);
 
-    // useLayoutEffect(()=>{
-    //     window.scrollTo(0,0)
-    // });
+   
 
     let [hide, setHide] = useState(false)
     let [model, setModel] = useState(false)
@@ -98,9 +96,9 @@ const Navbar = ({mode = false}) => {
                     <NavList color={color} setcolor={setcolor} openList={open} vertical={hide} aboutFunc={handleAbout} hideAbout={handleHideAbout} showFunc={handleShow} hideFunc={handleHide} />
                 </div>
                 <div className='nav_and_phoneIcon'>
-                    <div className='cl_div'>
+                    {/* <div className='cl_div'>
                         <PhoneIcon className='phoneIcon' />
-                    </div>
+                    </div> */}
                     {!open ?
                         <div className='showItem_div'>
                             <SortIcon className='showItem' onClick={handleOpen} />

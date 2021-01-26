@@ -61,11 +61,11 @@ const Contact = () => {
                     <div className="contact-right-top">
                         <div className="con-top-1">
                             <i className="fas fa-envelope"></i>
-                            <span>info@cubix.co</span>
+                            <span>Info@lozpdata.com</span>
                         </div>
                         <div className="con-top-2">
                             <i className="fas fa-phone-alt"></i>
-                            <span>866-978-2220</span>
+                            <span>+923028072696</span>
                         </div>
                     </div>
                     <ContactForm />

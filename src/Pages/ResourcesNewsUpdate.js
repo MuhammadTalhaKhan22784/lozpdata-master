@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import WorkSectionData1 from '../Components/Utills/WorkSectionData1'
 import Navbar from '../Layout/navbar/navbar'
 import ResourcesNewsUpdateSec2 from '../PagesSubComponents/ResourcesNewsUpdateSec2'
@@ -8,6 +8,9 @@ import Footer from '../Layout/Footer'
 
 
 const ResourcesNewsUpdate = () => {
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     return (
         <>
             <Navbar 

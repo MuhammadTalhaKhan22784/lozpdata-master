@@ -21,6 +21,7 @@ const Footer = () => {
                     />
 
                     <FooterData2 ftName="Services"
+                        isShow
                         ftText1="Mobile Application"
                         ftText2="Web Development"
                         ftText3="MVP Development"

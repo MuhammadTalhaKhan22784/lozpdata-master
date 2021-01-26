@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import WebComponentData from '../Components/Utills/WebComponentData'
 // import Navbar from '../Layout/Navbar'
 import Navbar from '../Layout/navbar/navbar'
@@ -13,7 +13,10 @@ import Footer from '../Layout/Footer'
 
 
 const ArtificialIntelligence = () => {
-    return (
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
+    return ( 
         <>
             <Navbar />
             <WebComponentData

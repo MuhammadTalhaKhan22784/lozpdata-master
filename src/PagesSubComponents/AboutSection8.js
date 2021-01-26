@@ -1,6 +1,10 @@
 import React from 'react'
 import '../Pages/Styles/About.css'
 
+import abtImg1 from '../AboutImages/abtImg1.jpg'
+import abtImg2 from '../AboutImages/abtImg2.jpg'
+import abtImg3 from '../AboutImages/abtImg3.jpg'
+import abtImg4 from '../AboutImages/abtImg4.jpg'
 
 const AboutSection8 = () => {
     return (
@@ -28,7 +32,25 @@ const AboutSection8 = () => {
                                     <div className="d-flex justify-content-center flex-wrap">
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src={abtImg3} />
+                                                <div className="info">
+                                                    <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
+                                                    <p className="fs-6">CEO and founder</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                                            <div className="abt-tab-card card mt-4">
+                                                <img src={abtImg4} />
+                                                <div className="info">
+                                                    <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
+                                                    <p className="fs-6">Mobile App Developer</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+                                            <div className="abt-tab-card card mt-4">
+                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/avatar-image.jpg" />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
                                                     <p className="fs-6">Avp - north america</p>
@@ -37,25 +59,7 @@ const AboutSection8 = () => {
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
-                                                <div className="info">
-                                                    <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
-                                                    <p className="fs-6">Avp - north america</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                                            <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
-                                                <div className="info">
-                                                    <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
-                                                    <p className="fs-6">Avp - north america</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-                                            <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/avatar-image.jpg" />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
                                                     <p className="fs-6">Avp - north america</p>
@@ -67,7 +71,7 @@ const AboutSection8 = () => {
                                     <div className="d-flex justify-content-center flex-wrap my-1">
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/avatar-image.jpg" />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
                                                     <p className="fs-6">Avp - north america</p>
@@ -76,7 +80,7 @@ const AboutSection8 = () => {
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/avatar-image.jpg" />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
                                                     <p className="fs-6">Avp - north america</p>
@@ -85,7 +89,7 @@ const AboutSection8 = () => {
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/avatar-image.jpg" />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
                                                     <p className="fs-6">Avp - north america</p>
@@ -108,19 +112,19 @@ const AboutSection8 = () => {
                                     <div className="d-flex justify-content-center flex-wrap">
                                         <div className="col-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src={abtImg2} />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
-                                                    <p className="fs-6">Avp - north america</p>
+                                                    <p className="fs-6">Business Advisor</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-12 col-sm-6 col-md-3 col-lg-3">
                                             <div className="abt-tab-card card mt-4">
-                                                <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/about/Austin-Lovvorn.jpg" />
+                                                <img src={abtImg1} />
                                                 <div className="info">
                                                     <h1 className="fs-5 fw-bold">Austin lovvorn</h1>
-                                                    <p className="fs-6">Avp - north america</p>
+                                                    <p className="fs-6">Business Advisor</p>
                                                 </div>
                                             </div>
                                         </div>

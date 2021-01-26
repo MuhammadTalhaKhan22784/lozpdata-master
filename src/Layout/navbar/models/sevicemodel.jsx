@@ -101,7 +101,7 @@ const ServiceModel = ({ openn }) => {
                     </div>
 
                 </div>
-                <div className={!openn ? 'work_div' : 'work_div2'}>
+                {/* <div className={!openn ? 'work_div' : 'work_div2'}>
                     <h3>How we work</h3>
                     <ul className='work_ul'>
                         <li>
@@ -126,7 +126,7 @@ const ServiceModel = ({ openn }) => {
                                 <p>Full-function product delivery</p>
                             </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div >
     )

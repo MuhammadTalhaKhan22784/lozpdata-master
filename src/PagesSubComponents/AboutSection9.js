@@ -1,6 +1,8 @@
 import React from 'react'
 import AboutSection9Data from '../Components/Utills/AboutSection9Data'
 import '../Pages/Styles/About.css'
+
+
 const AboutSection9 = () => {
     return (
         <>

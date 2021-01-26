@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import Footer from '../Layout/Footer'
 import Navbar from "../Layout/navbar/navbar"
 import "./Styles/MobileApplication.css"
@@ -10,6 +10,9 @@ import MobAppSec4 from '../PagesSubComponents/MobAppSec4';
 
 
 const MobileApplication = () => {
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     return (
         <>
             <div>
@@ -42,14 +45,19 @@ const MobileApplication = () => {
                         </div>
 
                         <div className="ul">
-                            <Swiper navigation={true} grabCursor={true} className="mb-bg-slider">
+                        <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/estee-lauder.png" alt="phototect" />
+                            <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/sapient.png" alt="phototect" />
+                            <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/canon.png" alt="phototect" />
+                            <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/artizone.png" alt="phototect" />
+                            
+                            {/* <Swiper navigation={true} grabCursor={true} className="mb-bg-slider">
                                 <SwiperSlide>
                                     <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/estee-lauder.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/sapient.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/canon.png" alt="phototect" />
                             <img src="https://www.cubix.co/themes/responsiv-clean/assets/images/mobile-app-development/logo/artizone.png" alt="phototect" />
                                 </SwiperSlide>
-                            </Swiper>
+                            </Swiper> */}
                             
                         </div>
                     </div>

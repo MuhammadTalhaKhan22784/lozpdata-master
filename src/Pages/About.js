@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import WebComponentData from '../Components/Utills/WebComponentData'
 import Navbar from '../Layout/navbar/navbar'
 import AboutSubComponents from '../PagesSubComponents/AboutSubComponents'
@@ -17,6 +17,9 @@ import AboutSection10 from '../PagesSubComponents/AboutSection10'
 import DevEnterprise from '../Components/DevEnterprise'
 
 const About = () => {
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     return (
         <>
             <Navbar />
@@ -37,7 +40,7 @@ const About = () => {
             <AboutSection7 />
             <AboutSection8 />
             <AboutSection9 />
-            <AboutSection10 />
+            {/* <AboutSection10 /> */}
             <DevEnterprise />
             <ProductExperienceSection />
             <Footer />

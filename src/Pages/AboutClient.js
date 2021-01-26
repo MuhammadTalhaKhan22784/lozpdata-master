@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import BgServicesData from '../Components/Utills/BgServicesData'
 import Footer from '../Layout/Footer'
 import Navbar from '../Layout/navbar/navbar'
@@ -8,6 +8,9 @@ import ProductExperienceSection from '../Components/ProductExperienceSection'
 
 
 const AboutClient = () => {
+    useLayoutEffect(()=>{
+        window.scrollTo(0,0)
+    });
     return (
         <>
            <Navbar/>

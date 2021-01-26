@@ -30,6 +30,7 @@
     width: 140px;
 }
 
+
 .about-sec-3{
     height: max-content;
 }
@@ -182,7 +183,8 @@
     width: 100%;
     padding: 7rem 0;
     margin-top: 5rem;
-    background: linear-gradient(to right,#0bccee 0,#ac1de1 100%)!important;
+    background-color: white;
+    /* background: linear-gradient(to right,#0bccee 0,#ac1de1 100%)!important; */
     display: flex;
     align-items: center;
     overflow-x: hidden;
@@ -192,7 +194,7 @@
     /* padding: rem 0; */
 } 
    .abt-sec-4-cards h2{
-    color: white;
+    color: black;
     font-weight: bold;
     width: 87%;
     text-transform: initial;
@@ -202,7 +204,7 @@
 
 .abt-sec-4-cards p{
     text-align: center;
-    color: white;
+    color: black;
     opacity: 0.9;
     padding: 0 1.5rem;
 }
@@ -553,6 +555,13 @@
         height: 66vh;
     }
     .abt-sec-3-2 .enlivenem{
+        width: 100px;
+    }
+    .abt-sec-3-1 h1{
+        text-align: center !important;
+        line-height: 1.4;
+    }
+    .abt-sec-3-2 img{
         width: 100px;
     }
   }
