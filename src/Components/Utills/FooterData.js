@@ -11,8 +11,12 @@ const FooterData = (props) => {
                 <div className="ft-div-2">
                     <p>{props.countryText}</p>
                 </div>
-                <div className="ft-div-3">
-                    <span>Direction</span>
+                <div 
+                style={{display: props.isShow ? `none` : `block`}}
+                className="ft-div-3">
+                    <span>Info@lozpdata.com</span>
+                    <br/>
+                    <span>+923028072696</span>
                 </div>
             </div>
         </>

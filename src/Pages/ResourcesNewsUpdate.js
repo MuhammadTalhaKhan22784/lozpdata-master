@@ -10,7 +10,9 @@ import Footer from '../Layout/Footer'
 const ResourcesNewsUpdate = () => {
     return (
         <>
-            <Navbar isShow="false"/>
+            <Navbar 
+            mode={true}
+            />
             <WorkSectionData1
                 bgText="News and announcements"
                 bgPara1="Explore latest updates and announcements about new ventures, partnerships,"

@@ -33,7 +33,7 @@ const WebComponentData = (props) => {
                         <h5 className="lh-base">{props.bgPara}</h5>
                     </Fade>
                     <Fade bottom duration={1200} delay={500}>
-                        <button>LET'S GET STARTED</button>
+                        <button>LET'S TALK</button>
                     </Fade>
                 </div>
 

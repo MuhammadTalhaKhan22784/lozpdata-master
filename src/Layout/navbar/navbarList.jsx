@@ -102,10 +102,10 @@ const NavList = ({ hideFunc, showFunc, openList, hide, vertical, aboutFunc, hide
                         <li className={!vertical ? `contacts ${color ? "act" : ""}` : 'contacts2'}>
                             <Link to="/contact" className={!vertical ? `contacts ${color ? "act" : ""}` : 'contacts2'} >Contact</Link>
                         </li>
-                        <li className={!vertical ? `cl_li ${color ? "act" : ""}` : 'cl_li2'}>
+                        {/* <li className={!vertical ? `cl_li ${color ? "act" : ""}` : 'cl_li2'}>
                             <PhoneIcon className='callIcon' />
                             <p className="mt-3 ms-3"> +923104267558</p>
-                        </li>
+                        </li> */}
                         <li>
                             <button onClick={() => setModalShow(true)} className={`estimate_btn ${color ? "act" : ""}`}>Request a Quote</button>
                         </li>

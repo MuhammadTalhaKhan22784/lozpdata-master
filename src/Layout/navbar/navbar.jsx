@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useLayoutEffect } from 'react'
 // import Logo from '../images/logo.png'
 import NavList from '../navbar/navbarList'
 import SortIcon from '@material-ui/icons/Sort';
@@ -27,6 +27,9 @@ const Navbar = ({mode = false}) => {
         return () => window.removeEventListener("resize", updateWidthAndHeight);
     }, []);
 
+    // useLayoutEffect(()=>{
+    //     window.scrollTo(0,0)
+    // });
 
     let [hide, setHide] = useState(false)
     let [model, setModel] = useState(false)
