@@ -271,10 +271,47 @@
 
 .abt-sec-7{
     width: 100%;
+    height: max-content;
+    padding:5rem 0;
+}
+.abt-sec-7-img{
+    text-align: center;
 }
 
-.abt-sec-7 img{
+.abt-sec-7-img img{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.abt-sec-7-content {
     width: 100%;
+}
+
+.abt-sec-7-content h2{
+    color:#7c7ce3;
+}
+
+.abt-sec-7-content p,.abt-sec-7-content span{
+    color: black;
+    opacity: 0.8;
+}
+
+.quotes-cicle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 2px 16px rgb(147 136 136 / 67%)
+
+}
+.quotes-cicle i{
+    color: blue;
+    position: absolute !important;
+    top:20px;
+    left:20px;
+    font-size: 30px !important;
 }
 
 /* About Section 8 */
@@ -479,7 +516,7 @@
       margin-top: 3rem;
   }
 
-  @media (max-width:767px){
+  @media (max-width:768px){
     .abt-main-text{
         margin-top: 3rem;
         text-align: center;
@@ -491,6 +528,13 @@
     
     .abt-main-text span,.abt-main-text h2,.abt-main-text p{
         margin: 1rem auto;
+    }
+    .abt-sec-7-content{
+        text-align: center;
+        margin-top: 2rem !important;
+    }
+    .quotes-cicle{
+        margin: 0 auto;
     }
   }
 
@@ -563,5 +607,8 @@
     }
     .abt-sec-3-2 img{
         width: 100px;
+    }
+    .abt-sec-7-img img{
+        width: 80%;
     }
   }

@@ -9,9 +9,9 @@ import Footer from '../Layout/Footer'
 
 let Work = (props) => {
 
-    useLayoutEffect(()=>{
-        window.scrollTo(0,0)
-    });
+    // useLayoutEffect(()=>{
+    //     window.scrollTo(0,0)
+    // });
     let [number, setnumber] = useState(4)
     let obj = [
         {
