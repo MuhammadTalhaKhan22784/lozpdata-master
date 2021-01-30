@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 100%;
+}
+
+/* CaseStudySection1 start ===============================================================  */
+
+.CaseStudySection1 {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding-top: 8rem; */
+  overflow: hidden;
+  background-image: url("https://www.cubix.co/themes/responsiv-clean/assets/images/foodly-portfolio/header-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 8rem 2rem 0 2rem;
+}
+.CaseStudySection1 div {
+  width: 100%;
+  text-align: center;
+  height: 50%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.CaseStudySection1 div h1 {
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+}
+.CaseStudySection1 img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: top;
+}
+
+@media (max-width: 580px) {
+  .CaseStudySection1 {
+    padding: 8rem 0.5rem 0 0.5rem;
+  }
+  .CaseStudySection1 div {
+    margin-bottom: 0.5rem;
+  }
+  .CaseStudySection1 img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    /* object-position: top; */
+  }
+}
+
+/* CaseStudySection1 ends  ===============================================================  */
+
+/* CaseStudySection2 start =============================================================== */
+
+.CaseStudySection2 {
+  width: 100%;
+  min-height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+
+.CaseStudySection2-content {
+  padding: 0 15rem;
+  margin-bottom: 6rem;
+}
+.CaseStudySection2-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+  color: black;
+}
+.CSSec2C-child {
+  display: flex;
+}
+.h2s h2:nth-child(1) {
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+.h2s h2:nth-child(2) {
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.rightcont {
+  margin-left: 2rem;
+  padding-top: 0.5rem;
+}
+.rightcont h3 {
+  font-size: 1.3rem;
+  color: black;
+  line-height: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+.rightcont p {
+  font-size: 0.9rem;
+  color: black;
+  line-height: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.caseStudyButton {
+  padding: 0.5rem 2rem;
+  width: 100%;
+  display: block;
+  background-color: #4869e8;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+}
+
+.CaseStudySection2-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+}
+.CaseStudySection2-images img:nth-child(1) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+.CaseStudySection2-images img:nth-child(2) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+  border-bottom: 70px solid transparent;
+}
+.CaseStudySection2-images img:nth-child(3) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 880px) {
+  :root {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .CaseStudySection2 {
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+
+  .CaseStudySection2-content {
+    padding: 0 3rem;
+    margin-bottom: 4rem;
+  }
+  .CaseStudySection2-images {
+    width: 100%;
+    height: 90vh;
+    padding: 0 3rem;
+  }
+  .CaseStudySection2-images img:nth-child(1) {
+    width: 50%;
+  }
+  .CaseStudySection2-images img:nth-child(2) {
+    width: 50%;
+  }
+  .CaseStudySection2-images img:nth-child(3) {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .CaseStudySection2 {
+    padding: 1rem 0;
+  }
+
+  .CaseStudySection2-content {
+    padding: 0 1rem;
+    margin-bottom: 6rem;
+  }
+
+  .CaseStudySection2-content h1 {
+    font-size: 2rem;
+  }
+
+  .CaseStudySection2-content {
+    text-align: center;
+  }
+  .CSSec2C-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .CaseStudySection2-images {
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+  }
+  .CaseStudySection2-images img:nth-child(1) {
+    width: 50%;
+  }
+  .CaseStudySection2-images img:nth-child(2) {
+    width: 50%;
+  }
+  .CaseStudySection2-images img:nth-child(3) {
+    width: 50%;
+  }
+}
+
+/* CaseStudySection2 ends ================================================================ */
+
+/* CaseStudySection3 starts ============================================================== */
+
+.CaseStudySection3 {
+  width: 100%;
+  min-height: 150vh;
+  padding: 3rem 13rem;
+}
+
+.CaseStudySection3-child1 h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: black;
+  letter-spacing: 0.2rem;
+}
+.CaseStudySection3-child1 p {
+  margin-bottom: 1rem;
+  color: black;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.CaseStudySection3-child2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+}
+
+.CaseStudySection3-child2-cards {
+  width: 15rem;
+  height: 15rem;
+  margin: 1.5rem 1rem;
+  padding: 1.6rem 1.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
+}
+
+.CaseStudySection3-child2-cards:hover {
+  background-color: #4869e8;
+  color: white;
+}
+
+.CaseStudySection3-child2-cards h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+.CaseStudySection3-child2-cards p {
+  font-size: 1rem;
+}
+
+@media (max-width: 980px) {
+  .CaseStudySection3 {
+    width: 100%;
+    min-height: 150vh;
+    padding: 3rem 8rem;
+  }
+}
+@media (max-width: 665px) {
+  .CaseStudySection3 {
+    width: 100%;
+    min-height: 150vh;
+    padding: 3rem 2rem;
+  }
+  .CaseStudySection3-child2-cards {
+    width: 100%;
+    height: auto;
+    margin: 1.2rem 1rem;
+    padding: 1.6rem 1.4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s linear;
+  }
+}
+/* CaseStudySection3 ends ============================================================== */
+
+/* CaseStudySection4 starts ============================================================= */
+
+.CaseStudySection4 {
+  margin-top: 8rem;
+}
+
+.CaseStudySection4-child1 {
+  width: 100%;
+  padding: 0 18.5rem;
+  margin-bottom: 5rem;
+}
+
+.CaseStudySection4-child1 h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+.CaseStudySection4-child1 p {
+  line-height: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 752px) {
+  .CaseStudySection4-child1 {
+    width: 100%;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* CaseStudySection4 ends   ============================================================= */
+
+/* CaseStudySection5 starts ============================================================= */
+
+.CaseStudySection5 {
+  width: 100%;
+  height: 90vh;
+  background: url("https://www.cubix.co/themes/responsiv-clean/assets/images/foodly-portfolio/section3bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CaseStudySection5-child {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.CaseStudySection5-child h1 {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.CaseStudySection5-child h1:nth-child(2) {
+  width: 40rem;
+  line-height: 3.2rem;
+}
+
+@media (max-width: 820px) {
+  .CaseStudySection5-child {
+    width: 100%;
+    margin-right: 0rem;
+    padding: 0 1rem;
+  }
+  .CaseStudySection5-child h1 {
+    width: 100%;
+    font-size: 1.9rem;
+  }
+  .CaseStudySection5-child h1:nth-child(2) {
+    width: 100%;
+  }
+}
+
+/* CaseStudySection5 ends   ============================================================= */
+
+/* CaseStudySection6 starts   ============================================================= */
+
+.CaseStudySection6 {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.055);
+  padding-top: 5rem;
+}
+
+.CaseStudySection6-child1 {
+  width: 100%;
+  padding: 0 18.5rem;
+  margin-bottom: 5rem;
+}
+
+.CaseStudySection6-child1 h1 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+.CaseStudySection6-child1 p {
+  line-height: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 752px) {
+  .CaseStudySection6-child1 {
+    width: 100%;
+    padding: 0 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.CaseStudySection6-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+}
+.CaseStudySection6-images img:nth-child(1) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+.CaseStudySection6-images img:nth-child(2) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+  border-bottom: 70px solid transparent;
+}
+.CaseStudySection6-images img:nth-child(3) {
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 750px) {
+  .CaseStudySection6-images {
+    width: 100%;
+    height: 90vh;
+    padding: 0 3rem;
+  }
+  .CaseStudySection6-images img:nth-child(1) {
+    width: 30%;
+  }
+  .CaseStudySection6-images img:nth-child(2) {
+    width: 30%;
+  }
+  .CaseStudySection6-images img:nth-child(3) {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .CaseStudySection6-images {
+    width: 100%;
+    height: auto;
+    padding: 0 2rem;
+  }
+  .CaseStudySection6-images img:nth-child(1) {
+    width: 30%;
+  }
+  .CaseStudySection6-images img:nth-child(2) {
+    width: 30%;
+  }
+  .CaseStudySection6-images img:nth-child(3) {
+    width: 30%;
+  }
+}
+
+/* CaseStudySection6 ends   ============================================================= */
+
+/* CaseStudySection7 starts ====================================================================== */
+
+.CaseStudySection7 {
+  width: 100%;
+  height: auto;
+  margin-top: 7rem;
+}
+.CaseStudySection7-child1 {
+  padding: 0 16rem;
+}
+
+.CaseStudySection7 p {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.CaseStudySection7 h1 {
+  margin-top: 8rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+
+.CaseStudySection7_imageBox {
+  width: 100%;
+  height: 81vh;
+}
+.CaseStudySection7_imageBox img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .CaseStudySection7-child1 {
+    padding: 0 2rem;
+  }
+  .CaseStudySection7_imageBox {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* @media (max-width:768px){
+  .s-swipe-1{
+    height: max-content;
+  }
+  .s-swipe-2 img{
+    object-fit: contain;
+    height: max-content;
+  }
+  .s-swipe-2{
+    height: max-content;
+  }
+} */
+
+/* CaseStudySection7 ends ====================================================================== */

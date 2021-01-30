@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-services{
+    background-image:linear-gradient(rgb(0 0 0 / 72%), rgb(0 0 0 / 60%)), url(https://www.cubix.co/storage/app/media/services/cubix-service-1.jpg);
+    width: 100%;
+    height: 87vh;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-service-Text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.bg-service-Text h1{
+    /* font-size: 48px; */
+    color: white;
+    width: 100%;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+.bg-service-Text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;    
+    opacity: .9;
+}   
+
+.down-arrow{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 5rem;
+}
+
+.fa-angle-down{
+    color: white;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.service-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.service-main-text-1 h6{
+    /* font-size: 14px; */
+    color: #4869e8;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.6em;
+    font-weight: 600;
+    letter-spacing: .2em;
+}
+
+.service-main-text-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-main-text-2 h2{
+    /* font-size: 42px; */
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin: 0.5rem auto;
+    line-height: 1.3em;
+}
+.service-main-text-2 p{
+    font-size: 1.2em;
+    line-height: 1.7em;
+    opacity: 1;
+    width: 56%;
+    text-align: center;
+}
+
+.sp-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 16rem;
+    height: 9rem;
+    box-shadow: 0 25px 70px rgba(0,0,0,.07);
+
+}
+
+.sp-card-items h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.sp-card-items > p{
+    font-size: 14px;
+}
+
+/* Services Swiper Section */
+
+.services-swiper-Section{
+    /* margin-top: 10rem; */
+}
+
+.s-swipe-1{
+    /* width: 50%; */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.s-swipe-num{
+   margin-top: 2rem;
+}
+
+.s-swipe-num h6{
+    font-size: 50px;
+    opacity: .1;
+    font-weight: 700;
+}
+
+.s-swipe-h{
+    /* margin: 0 auto; */
+}
+
+.s-swipe-h h2{
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+
+.s-swipe-list{
+    /* margin: 0 auto; */
+}
+
+.s-swipe-ul{
+    
+    line-height: 2rem;
+}
+
+.s-swipe-ul span{
+    color: black;
+    font-weight: 600;
+} 
+
+.s-image{
+    width: 100%;
+    background-size: cover;
+    transition: all 1.2s;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-position: center;
+    left: 0;
+}
+
+.slide:hover .s-image{
+    transform: scale(1.2);
+}
+
+.slide:hover .s-text{
+    transform: translateY(-20%);
+}
+
+.s-swipe-2{
+    
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-page-one.jpg);
+}
+
+.s-swipe-2-1{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-portfolio-2-new.jpg);
+}
+
+.s-swipe-3{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/services-page-three.jpg);
+}
+
+.s-swipe-3-1{
+    background-image: url(https://www.cubix.co/themes/responsiv-clean/assets/images/services-page/service-page-four.jpg);
+}
+
+.s-text{
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+
+.s-text button{
+    background-color: #4869e8;
+    color: white;
+    border: none;
+    width: 6rem;
+    font-weight: 400;
+    height: 2rem;
+}
+.s-text h3{
+    color: white;
+    font-weight: bold;
+}
+
+.s-swipe-p{
+    width: 100%;
+}
+.s-swipe-p p{
+    width: 74.5%;
+    /* margin-left: 100px; */
+    font-size: 1.2em;
+}
+
+.s-swipe-2 img{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* service section 3 */
+
+.service-sec-3{
+width: 100%;
+}
+
+.pos-sticky{
+    position: sticky;
+    top: 100px;
+}
+
+.sev3-card{
+    width: 100%;
+    height: 40vh;
+    box-shadow: 0 25px 70px rgba(0,0,0,.07);
+    display: flex;
+    padding: 2rem;
+}
+
+.sev3-card p{
+    text-transform: initial;
+    opacity: 0.9;
+}
+.serv-main-1{
+    padding:2rem;
+} 
+.serv-main-1 h2{
+    text-transform: initial;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+.serv-main-1 p{
+    text-transform: initial;
+}
+.serv-main-1 button{
+    background-color: #4869e8;
+    width: 12rem;
+    height: 4.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+/* .services-swiper-Section .swiper-button-next,
+.services-swiper-Section .swiper-button-prev {
+    display: flex !important;
+    position: absolute;
+  } */
+
+@media (max-width:1024px){
+    .bg-service-Text h1{
+        width: 60%;
+        line-height: 1.3em;
+    }
+}
+
+@media (max-width:768px){
+    .bg-service-Text h1{
+        width: 70%;
+        line-height: 1.3em;
+    }
+    .service-main-text-1 h6{
+        width: 80%;
+    }
+    .service-main-text-2 p{
+        width: 73%;
+        margin: 2rem 0;
+    }
+    .col-rev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .s-swipe-1 {
+        height: 68vh;
+    }
+}
+@media(max-width:700px){
+    .bg-service-Text h2 {
+        /* font-size: 38px; */
+    
+    }
+}
+
+@media(max-width:600px){
+    .bg-service-Text h2 {
+        /* font-size: 32px; */
+    
+    }
+}
+
+@media(max-width:560px){
+    .bg-service-Text h2 {
+        /* font-size: 29px; */
+    
+    }
+}
+@media(max-width:500px){
+     .bg-client{
+        height: 74vh !important;
+    }
+    .bg-service-Text{
+        margin-top: 13rem;
+    }
+}
+
+@media(max-width:488px){
+    .s-swipe-1 {
+    height: max-content;
+
+    }
+}
+
+@media(max-width:473px){
+    .bg-service-Text h2 {
+        /* font-size: 27px; */
+    
+    }
+    .service-main-text-1 h6{
+        /* font-size: 11px; */
+    }
+}
+
+@media (max-width:376px){
+    .bg-client{
+        height: 69vh !important;
+    }
+    .bg-service-Text{
+        margin-top: 12rem;
+    }
+    .bg-service-Text h1{
+        width: 90%;
+        line-height: 1.7 !important;
+    }
+}
+
+
+@media (max-width:360px){
+    .s-swipe-p p {
+        width: 69.5%;
+        /* margin-left: 100px; */
+        font-size: 1em;
+    }
+}

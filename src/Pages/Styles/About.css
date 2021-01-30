@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-section{
+    margin-top: 5rem;
+    height: max-content;
+    margin-bottom: 5rem;
+}
+
+.about-sec-1 h1{
+    color: black;
+    margin: 0 auto;
+    font-weight: 600;
+    text-align: center;
+    text-transform:initial;
+}
+.about-sec-2{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.about-sec-2 img{
+    height: 70px;
+}
+
+.abt-sec-3-2 .enlivenem{
+    width: 140px;
+}
+
+
+.about-sec-3{
+    height: max-content;
+}
+
+.abt-sec-3 span{
+    opacity: 0.8 !important;
+    letter-spacing: 1px;
+}
+
+
+.abt-sec-3-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.abt-sec-3-1 h1{
+    font-weight: 600;
+}
+
+/* bg client */
+
+.bg-client{
+    background-image:url(https://www.cubix.co/themes/responsiv-clean/assets/images/testimonials/cubix-clients1.jpg);
+    transition: .3s;
+    opacity: .3s;
+    width: 100%;
+    height: 87vh;
+    background-size: cover;
+    position: relative;
+    top: -80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.abt-client-sec-2{
+    padding-bottom: 3rem;
+}
+
+.bg-client h1{
+    line-height: 3.5rem;
+}
+
+.abt-client-imgs{
+    display: flex;
+    justify-content: center;
+}
+
+.abt-client-imgs img{
+    width: 12em;
+    background-size: contain;
+    object-fit: contain;
+}
+.bg-web-dev-content h5{
+    width: 48%;
+} 
+
+/* .abt-client-imgs img{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+} */
+
+@media (max-width:991px){
+    .abt-sec-3-1{
+        align-items: center;
+    }
+    .about-sec-3 p{
+        text-align: center;
+        margin: 0 auto;
+        padding: 1rem 0.5rem;
+    }
+}
+
+
+/* About Section */
+
+.abt-sec-2{
+    padding: 5rem 0;
+}
+
+.abt-sec-2-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.abt-main-image{
+    width: 100%;
+}
+.abt-main-image img{
+    width: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    box-shadow: 0 30px 100px rgba(0,0,0,.17);
+}
+
+.abt-main-text{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+.abt-main-text span{
+    color: #03b4ff;
+    text-transform: none;
+    line-height: 1.5;
+}
+
+.abt-main-text h2{
+    font-weight: 600;
+    width: 90%;
+    text-transform: initial;
+}
+
+.abt-main-text p{
+    opacity: 0.9;
+    width: 90%;
+}
+
+.abt-hr{
+    margin-top: 8rem;
+}
+
+/* about section 3 */
+
+.abt-sec-3{
+    width: 100%;
+}
+
+.abt-sec-3 h1{
+    color: #03b4ff;
+    font-weight: bolder;
+    line-height: 1.4;
+}
+.about_card:hover h1{
+    color: transparent;
+    background-image: linear-gradient(to right,#4762ff,#ff798e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: all 0.2s;
+}
+/* about section 4 */
+
+.abt-sec-4{
+    width: 100%;
+    padding: 7rem 0;
+    margin-top: 5rem;
+    background-color: white;
+    /* background: linear-gradient(to right,#0bccee 0,#ac1de1 100%)!important; */
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.abt-sec-4-cards{
+    /* padding: rem 0; */
+} 
+   .abt-sec-4-cards h2{
+    color: black;
+    font-weight: bold;
+    width: 87%;
+    text-transform: initial;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.abt-sec-4-cards p{
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+    padding: 0 1.5rem;
+}
+
+/* About section 5 */
+
+.abt-sec-5{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.abt-sec-5-text{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.abt-sec-5-text h1{
+    text-align: center;
+    margin: 0 auto;
+    text-transform: initial;
+    font-weight: bold;
+}
+
+.abt-sec-5-text p{
+    text-align: center;
+    text-transform: initial;
+    margin: 0 auto;
+}
+
+.abt-5-img-1 img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 30px 100px rgba(0,0,0,.17);
+}
+
+.abt-5-img-2 img{
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 30px 100px rgba(0,0,0,.17);
+}
+
+.abt-cont-2{
+    margin-top: 8rem;
+}
+
+.abt-sec-5-content-1 p{
+    width: 80%;
+    text-transform: initial;
+}
+.abt-sec-5-content-1 strong{
+    text-transform: initial;
+}
+.let-spacing {
+    letter-spacing: 0.1em;
+    font-weight: 700 !important;
+}
+
+/* About section 7 */
+
+.abt-sec-7{
+    width: 100%;
+    height: max-content;
+    padding:5rem 0;
+}
+.abt-sec-7-img{
+    text-align: center;
+}
+
+.abt-sec-7-img img{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.abt-sec-7-content {
+    width: 100%;
+}
+
+.abt-sec-7-content h2{
+    color:#7c7ce3;
+}
+
+.abt-sec-7-content p,.abt-sec-7-content span{
+    color: black;
+    opacity: 0.8;
+}
+
+.quotes-cicle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 2px 16px rgb(147 136 136 / 67%)
+
+}
+.quotes-cicle i{
+    color: blue;
+    position: absolute !important;
+    top:20px;
+    left:20px;
+    font-size: 30px !important;
+}
+
+/* About Section 8 */
+
+.abt-sec-8{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #f5f7fb;
+}
+
+.abt-sec-8-text{
+    line-height: 1.6;
+}
+
+.abt-sec-8-text h1{
+    text-align: center;
+    margin: 0 auto;
+    text-transform: initial;
+}
+
+.abt-sec-8-text p{
+    text-align: center;
+    margin: 0 auto;
+    text-transform: initial;
+}
+
+.abt-sec-8-tabs{
+    display: flex;
+  flex-direction: column;
+    margin-top: 5rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.abt-tab-content{
+    display: flex;
+}
+
+.abt-nav{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/*  */
+
+.leaders-tab-pane{
+    display: flex !important;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+/* .advisor-tab-pane{
+    display: flex !important;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 100%;
+} */
+
+.advisors-tab-pane{
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+}
+  .abt-wrapper-1{
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  
+  .abt-wrapper-2 {
+    /* width: 100%; */
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .abt-tab-card img{
+      margin: 0 auto;
+  }
+
+  .abt-tab-card {
+    width: 15rem;
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 15rem;
+    /* border-radius: 15px; */
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 0.4s ease-out;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5); */
+  }
+  /* .abt-tab-card:hover {
+    transform: translateY(60px);
+  } */
+  .abt-tab-card:hover:before {
+    opacity: 1;
+  }
+  .abt-tab-card:hover .info {
+    opacity: 1;
+    /* transform: translateY(50%); */
+  }
+  .abt-tab-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 15px; */
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .abt-tab-card img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border-radius: 15px; */
+  }
+  .abt-tab-card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    /* transform: translateY(30px); */
+    transition: 0.5s;
+  }
+  .abt-tab-card .info h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .abt-tab-card .info p {
+    letter-spacing: 1px;
+    /* ffont-size: 15px; */
+    margin-top: 8px;
+  }
+ 
+
+  /* About Section 9 */
+
+  .abt-sec-9{
+      padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .abt-sec-9-main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .abt-sec-9-main h1{
+      width: 80%;
+      margin: 0 auto;
+      font-weight: bold;
+      text-transform: initial;
+      text-align: center;
+  }
+
+  .abt-sec-9-main p{
+    width: 60%;
+    margin: 0 auto;
+    text-transform: initial;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+.abt-sec-9-imgs{
+    width: 80%;
+    margin: 0 auto;}
+
+  .abt-sec-9-imgs img{
+      width: 200px;
+      background-position: center;
+      background-size: contain;
+      object-fit: contain;
+  }
+
+  /* About Section 10 */
+ 
+  .abt-sec-10{
+      width: 100%;
+      background-color: #f5f7fb;
+      height: max-content;
+      padding-top: 4rem;
+      padding-bottom: 8rem;
+  }
+ 
+  .vd-card {
+  }
+  
+  .abt-9-video-card{
+      margin-top: 3rem;
+  }
+
+  @media (max-width:768px){
+    .abt-main-text{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .abt-main-text h2{
+        line-height: 1.6;
+        margin-top: 1rem;
+    }
+    
+    .abt-main-text span,.abt-main-text h2,.abt-main-text p{
+        margin: 1rem auto;
+    }
+    .abt-sec-7-content{
+        text-align: center;
+        margin-top: 2rem !important;
+    }
+    .quotes-cicle{
+        margin: 0 auto;
+    }
+  }
+
+  @media (max-width:756px){
+    .abt-main-text{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .abt-main-text h2 {
+        margin-top: 1rem;
+    }
+    .abt-main-text p{
+        margin-top: 1rem;
+    }
+    .abt-sec-5-content-1{
+        margin-top: 1rem;
+    }
+    .abt-sec-5-content-1 p{
+        width: 100% !important;
+        text-align: center;
+    }
+  }
+
+  @media (max-width:576px){
+    .abt-tab-card{
+        width: 90%;
+        height: 60vh;
+    }
+  }
+
+  @media (max-width:426px){
+    .abt-tab-card{
+        width: 90%;
+        height: 50vh;
+    }
+  }
+  @media (max-width:401px){
+    .abt-tab-card{
+        width: 100%;
+        height: 40vh;
+    }
+  }
+
+  /* @media (max-width:450px){
+    .abt-tab-card{
+        width: 14rem !important;
+    }
+  }
+
+  @media (max-width:420px){
+    .abt-tab-card{
+        width: 13.5rem !important;
+    }
+  }
+  @media (max-width:400px){
+    .abt-tab-card{
+        width: 12.5rem !important;
+    }
+  } */
+  @media (max-width:376px){
+    .abt-process .bg-web-development{
+        height: 66vh;
+    }
+    .abt-sec-3-2 .enlivenem{
+        width: 100px;
+    }
+    .abt-sec-3-1 h1{
+        text-align: center !important;
+        line-height: 1.4;
+    }
+    .abt-sec-3-2 img{
+        width: 100px;
+    }
+    .abt-sec-7-img img{
+        width: 80%;
+    }
+  }
