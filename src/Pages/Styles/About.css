@@ -24,6 +24,7 @@
 }
 .about-sec-2 img{
     height: 70px;
+    width: 100%;
 }
 
 .abt-sec-3-2 .enlivenem{
@@ -596,7 +597,7 @@
   } */
   @media (max-width:376px){
     .abt-process .bg-web-development{
-        height: 66vh;
+        height: 69vh;
     }
     .abt-sec-3-2 .enlivenem{
         width: 100px;
